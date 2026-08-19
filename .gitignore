@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.pcap
+*.pcapng
+.DS_Store
+evidence.local.json
+work/
+server/data/submissions.json
+server/data/*.db
+server/data/*.db-shm
+server/data/*.db-wal
