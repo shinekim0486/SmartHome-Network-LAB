@@ -1,9 +1,10 @@
 import json
 from contextlib import contextmanager
+import os
 from pathlib import Path
 import sqlite3
 
-DB_PATH = Path(__file__).parent / "data" / "smarthome_lab.db"
+DB_PATH = Path(os.getenv("SMARTHOME_DB_PATH", str(Path(__file__).parent / "data" / "smarthome_lab.db")))
 
 SCHEMA = """
 PRAGMA foreign_keys = ON;
@@ -105,3 +106,4 @@ def json_list(value: str | None) -> list[str]:
         return parsed if isinstance(parsed, list) else []
     except json.JSONDecodeError:
         return []
+

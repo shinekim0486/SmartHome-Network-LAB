@@ -7,6 +7,7 @@ from typing import Literal
 import httpx
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
 from server.database import connect, init_db, json_list, rows_to_dicts
@@ -322,3 +323,8 @@ def teacher_dashboard() -> list[dict]:
             counts = connection.execute("SELECT (SELECT COUNT(*) FROM chat_logs WHERE student_id=?) chat_count, (SELECT COUNT(*) FROM evidence WHERE student_id=? AND source='wireshark') wireshark_count, (SELECT COUNT(*) FROM evidence WHERE student_id=? AND source='tshark') tshark_count", (sid, sid, sid)).fetchone()
             result.append({"student": dict(student), "progress": progress, "completed_count": len(completed), "progress_percent": round(len(completed) / 48 * 100, 1), "current_lesson": max([item["lesson_no"] for item in progress], default=1), **dict(counts), "latest_judgement": dict(latest_judgement) if latest_judgement else None, "strengths": json_list(memory["strengths"]) if memory else [], "difficulties": json_list(memory["difficulties"]) if memory else [], "recent_errors": json_list(memory["recent_errors"]) if memory else []})
         return result
+
+
+# API routes must be registered before this catch-all static mount.
+app.mount("/", StaticFiles(directory=Path(__file__).parent.parent / "student-web", html=True), name="student-web")
+

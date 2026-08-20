@@ -136,6 +136,19 @@ Gemini에는 정답 대신 힌트를 요청합니다. 예: “내 관찰은 TCP 
 python -m unittest discover -s server\tests -v
 ```
 
+## 전체 웹 배포(Render)
+
+저장소의 `render.yaml`은 FastAPI가 학생 화면과 API를 한 주소에서 제공하고, SQLite를 `/var/data` 영구 디스크에 저장하도록 구성합니다. Render에서 Blueprint 배포를 시작하고 이 GitHub 저장소를 선택하면 됩니다.
+
+- 빌드: `pip install -r server/requirements.txt`
+- 실행: `uvicorn server.main:app --host 0.0.0.0 --port $PORT`
+- 상태 확인: `/health`
+- 학생 화면: `/`
+- 교사 화면: `/teacher.html`
+- SQLite: `/var/data/smarthome_lab.db`
+
+영구 디스크가 없는 무료 웹 서비스에서는 재배포·재시작 때 SQLite 데이터가 사라질 수 있습니다. 실제 학생 기록 운영에는 영구 디스크가 포함된 서비스를 사용하고 주기적으로 DB를 백업하세요. 현재 MVP 로그인은 비밀번호 인증이 아니므로 인터넷 공개 전에는 학교 인증과 교사 권한 보호를 추가해야 합니다.
+
 ## 라이선스
 
 교육용 예제입니다. 실제 가정용 장치나 외부 시스템에 연결하기 전에 교사의 승인과 네트워크 소유자의 허가를 받으세요.
