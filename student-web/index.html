@@ -1,18 +1,393 @@
 <!doctype html>
-<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>SmartHome Network LAB</title><link rel="stylesheet" href="styles.css"></head>
-<body><header><p class="eyebrow">SELF-DIRECTED NETWORK CLASS</p><h1>SmartHome Network LAB</h1><p>코드를 보내고, 패킷을 보고, 증거로 판단하세요.</p><nav><a href="#learning">학습하기</a><a href="#memory-workflow">학습기억</a><a href="#submit-work">GitHub 작품 제출</a><a href="teacher.html">교사용 화면</a></nav></header>
-<main>
-  <section class="login-panel"><p class="eyebrow">STUDENT MEMORY</p><h2>학생 로그인</h2><p>학번과 별명으로 내 학습기록을 불러옵니다. 공용 PC에서는 수업 후 로그아웃하세요.</p><form id="login-form" class="inline-form"><label>학번/고유ID<input id="login-code" required maxlength="30"></label><label>별명<input id="login-nickname" required maxlength="40"></label><button type="submit">학습기억 불러오기</button><button type="button" id="logout" class="secondary">로그아웃</button></form><p id="login-result" role="status"></p></section>
-  <section class="toolbar" id="learning"><label for="lesson">오늘의 차시</label><select id="lesson"></select><span id="api-status">API 확인 중…</span></section>
-  <section class="mission" id="mission"></section><section><h2>탐구 루프</h2><div class="flow" id="flow"></div></section>
-  <section class="evidence"><h2>간단 메모</h2><label>관찰한 패킷/실행 결과<textarea id="evidence"></textarea></label><label>나의 판단<textarea id="judgement"></textarea></label><button id="save">현재 단계 저장</button><p id="save-result" role="status"></p></section>
-  <section class="memory-workflow" id="memory-workflow"><p class="eyebrow">EVIDENCE BEFORE AI</p><h2>판단 변화 기록</h2><p class="guardrail">① 최초 판단을 먼저 저장해야 ② Gemini 기록을 저장할 수 있습니다.</p>
-    <div class="memory-grid">
-      <article><h3>1. AI 사용 전 최초 판단</h3><textarea id="initial-judgement" placeholder="현재 패킷 증거만 보고 원인을 판단하세요."></textarea><button id="save-initial">최초 판단 저장</button></article>
-      <article><h3>2. Wireshark/TShark 증거</h3><label>출처<select id="evidence-source"><option value="wireshark">Wireshark</option><option value="tshark">TShark</option></select></label><label>패킷 번호<input id="packet-no"></label><label>필터<input id="filter-used" placeholder="tcp.port == 9000"></label><textarea id="memory-evidence" placeholder="증거가 보여주는 사실을 적으세요."></textarea><button id="save-evidence">증거 저장</button></article>
-      <article><h3>3. Gemini 질문·응답 기록</h3><textarea id="gemini-question" placeholder="학생이 Gemini에 물어본 질문"></textarea><textarea id="gemini-response" placeholder="Gemini가 제시한 가설이나 질문"></textarea><button id="save-chat">Gemini 기록 저장</button></article>
-      <article><h3>4. 학생의 최종 판단</h3><textarea id="gemini-hypotheses" placeholder="Gemini가 제안한 가설들"></textarea><textarea id="final-judgement" placeholder="재검증 후 내린 최종 판단"></textarea><input id="adopted-hypothesis" placeholder="채택한 가설 또는 채택하지 않은 이유"><button id="save-final">최종 판단 저장</button></article>
-    </div><p id="memory-result" role="status"></p><article class="memory-preview"><h3>다음 차시 Gemini용 학생 학습 기억</h3><button id="build-prompt">기억 프롬프트 만들기</button><pre id="prompt-preview">로그인 후 생성할 수 있습니다.</pre></article>
-  </section>
-  <section class="submission" id="submit-work"><p class="eyebrow">MY GITHUB PROJECT</p><h2>내 작품 제출하기</h2><p>본인 GitHub 공개 저장소 주소를 제출하세요. README와 선택한 차시 폴더를 자동 확인합니다.</p><form id="submission-form"><div class="form-grid"><label>이름<input id="student-name" required minlength="2" maxlength="40"></label><label>학번<input id="student-id" required maxlength="30"></label><label>제출 차시<select id="submission-lesson"></select></label><label>GitHub 저장소 주소<input id="repository-url" type="url" required placeholder="https://github.com/학생계정/저장소"></label></div><label>회고<textarea id="reflection" maxlength="1000"></textarea></label><button type="submit">저장소 확인하고 제출</button></form><div id="submission-result" role="status"></div><h3>내 제출 기록</h3><div id="my-submissions" class="cards"></div></section>
-</main><script src="app.js"></script></body></html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Network-LAB</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <p class="eyebrow">SELF-DIRECTED NETWORK CLASS</p>
+    <h1>Network-LAB</h1>
+    <p>5주 자율주행자동차 융합 프로젝트 안에서 진행하는 탐험형 네트워크 수업</p>
+    <nav>
+      <a href="#learning">탐험 시작</a>
+      <a href="#memory-workflow">학습 기억</a>
+      <a href="#submit-work">학습 기록 제출</a>
+      <a href="teacher.html">교사용 화면</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="login-panel">
+      <p class="eyebrow">STUDENT MEMORY</p>
+      <h2>학생 로그인</h2>
+        <p>학번으로 저장된 학습 기록을 불러옵니다. 이름은 공개하지 않으며, 공용 PC에서는 수업 후 로그아웃하세요.</p>
+      <form id="login-form" class="inline-form">
+        <label>학번/고유 ID<input id="login-code" required maxlength="30"></label>
+        <label>비밀번호<input id="login-password" type="password" value="1234" required maxlength="20"></label>
+        <button type="submit">로그인</button>
+        <button type="button" id="logout" class="secondary">로그아웃</button>
+      </form>
+      <p id="login-result" role="status"></p>
+    </section>
+
+    <section class="curriculum-note">
+      <p class="eyebrow">CURRICULUM REBUILD</p>
+      <h2>5주 융합 프로젝트 속 네트워크프로그래밍</h2>
+      <p>학생 화면에서 네트워크프로그래밍 1차시와 2차시를 모두 활성화했습니다. 1차시는 자율주행 주행 데이터 읽기, 2차시는 패킷·필터·증거 기록을 수행합니다.</p>
+      <div class="project-roadmap" aria-label="5주 프로젝트 흐름">
+        <span><b>1주차</b> 사전 설문·역할</span>
+        <span><b>2주차</b> 데이터·센서</span>
+        <span><b>3주차</b> 모델·통신</span>
+        <span><b>4주차</b> 통합·검증</span>
+        <span><b>5주차</b> 시연·사후 설문</span>
+      </div>
+      <a class="inline-link" href="docs/curriculum-rebuild-from-zips.md" target="_blank" rel="noopener">재구성안 문서 보기</a>
+    </section>
+
+    <section class="toolbar" id="learning">
+      <label for="lesson">오늘의 탐험</label>
+      <select id="lesson"></select>
+      <span id="api-status">API 확인 중…</span>
+    </section>
+
+    <section class="map-panel">
+      <div class="map-copy">
+        <p class="eyebrow">MOBA STYLE MAP</p>
+        <h2>다음 단계로 넘어가는 지도</h2>
+      <p>현재 학습을 확인하고 다음 단계로 이동하세요. 1차시에서 2차시로 자연스럽게 이어집니다.</p>
+      </div>
+      <div class="map-shell">
+        <div class="map-board" id="lesson-map" aria-label="스테이지 선택 맵"></div>
+        <aside class="map-legend" id="map-legend">
+          <span class="theme-chip" id="map-theme-name">테마 준비 중</span>
+          <b id="map-stage-title">스테이지 선택 대기 중</b>
+          <p id="map-theme-text">지금 선택한 차시가 어떤 블록에 속하는지 바로 확인할 수 있습니다.</p>
+          <p id="map-stage-text">거점을 누르면 차시 미션, 도착 목표, 아이템이 함께 표시됩니다.</p>
+        </aside>
+        <aside class="map-energy" aria-label="자동차 에너지 게이지">
+          <p class="eyebrow">CAR ENERGY</p>
+          <h3>자동차 엔진 게이지</h3>
+          <div class="energy-row"><span>🏎️ 번개 패킷카 <small id="energy-stage-a">1차시 출발</small></span><b id="energy-value-a">78%</b></div><div class="energy-track"><i id="energy-bar-a" class="energy-blue" style="width:78%"></i></div>
+          <div class="energy-row"><span>🚗 라즈베리 질주카 <small id="energy-stage-b">1차시 출발</small></span><b id="energy-value-b">69%</b></div><div class="energy-track"><i id="energy-bar-b" class="energy-orange" style="width:69%"></i></div>
+          <small>두 팀은 1차시에서 동시에 출발하고, 2차시 완료·증거·챗봇 활동 점수가 쌓이면 결승점에 도착합니다.</small>
+        </aside>
+      </div>
+    </section>
+
+    <section class="race-panel" id="race-board">
+      <div class="race-head">
+        <div>
+          <p class="eyebrow">LIVE CLASS RACE</p>
+          <h2>동시 진행 레이스 보드</h2>
+          <p>같은 시간에 시작한 학생들의 진행 상황을 포인트로 비교합니다. 완료 100점 · Wireshark 증거 20점 · TShark 15점 · 알라딘 질문 5점</p>
+        </div>
+        <div class="race-meta">
+          <span class="theme-chip" id="race-status">불러오는 중</span>
+          <small id="race-updated">최근 갱신 준비 중</small>
+        </div>
+      </div>
+      <div class="race-grid" id="race-grid">
+        <article class="race-card">
+          <b>레이스 데이터를 불러오는 중입니다.</b>
+          <p>API 연결 후 학생 순위가 자동으로 나타납니다.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="mission" id="mission"></section>
+
+    <section class="driving-data-panel" id="driving-data-panel" hidden>
+      <div class="data-panel-head">
+        <div>
+          <p class="eyebrow">ONLINE DRIVING DATA</p>
+          <h2>1차시 활동: 표에서 주행 기록 찾기</h2>
+          <p>시간·속도·조향 관련 열을 찾아 행 번호와 값을 근거로 기록된 움직임을 설명하세요.</p>
+        </div>
+        <span class="theme-chip">온라인 읽기</span>
+      </div>
+      <div class="data-source-note">
+        <b>자료 안내</b>
+        <span>현재 표는 수업 연습용 비식별 발췌 예시입니다. 교사는 공개 데이터의 이용 조건을 확인한 뒤 필요한 열만 교체합니다.</span>
+        <a href="https://github.com/commaai/comma2k19" target="_blank" rel="noopener">comma2k19 자료 설명</a>
+        <a href="https://aihub.or.kr/aihubdata/data/list.do?currMenu=115&searchKeyword=%EC%9E%90%EC%9C%A8%EC%A3%BC%ED%96%89&topMenu=100" target="_blank" rel="noopener">AI-Hub 자율주행 검색</a>
+      </div>
+      <div class="data-table-wrap">
+        <table class="driving-table">
+          <thead><tr><th>행</th><th>시간</th><th>속도 (km/h)</th><th>조향 관련 값</th></tr></thead>
+          <tbody>
+            <tr><td>1</td><td>10:00:01</td><td>0</td><td>0</td></tr>
+            <tr><td>2</td><td>10:00:02</td><td>5</td><td>0</td></tr>
+            <tr><td>3</td><td>10:00:03</td><td>12</td><td>2</td></tr>
+            <tr><td>4</td><td>10:00:04</td><td>18</td><td>4</td></tr>
+            <tr><td>5</td><td>10:00:05</td><td>20</td><td>1</td></tr>
+            <tr><td>6</td><td>10:00:06</td><td>17</td><td>-2</td></tr>
+            <tr><td>7</td><td>10:00:07</td><td>13</td><td>-4</td></tr>
+            <tr><td>8</td><td>10:00:08</td><td>10</td><td>-1</td></tr>
+            <tr><td>9</td><td>10:00:09</td><td>8</td><td>0</td></tr>
+            <tr><td>10</td><td>10:00:10</td><td>0</td><td>0</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="team-mission-grid">
+        <article><span class="stage-zone">팀 미션 A</span><h3>패킷 어디 갔조?</h3><p>4행의 시간·속도를 찾고 앞뒤 행과 비교하세요.</p></article>
+        <article><span class="stage-zone">팀 미션 B</span><h3>일단 다시 돌려보조!</h3><p>조향 관련 값이 달라지는 행을 찾아 인접한 기록과 비교하세요.</p></article>
+      </div>
+      <div class="data-answer-grid">
+        <label>확인한 행 번호<input id="driving-row" inputmode="numeric" placeholder="예: 4"></label>
+        <label>시간<input id="driving-time" placeholder="예: 10:00:04"></label>
+        <label>속도<input id="driving-speed" placeholder="예: 18"></label>
+        <label>조향 관련 값<input id="driving-steering" placeholder="예: 4"></label>
+      </div>
+      <label>근거를 넣은 한 문장 판단<textarea id="driving-judgement" placeholder="예: 4행의 속도와 조향 관련 값이 앞 행과 달라져 차량의 움직임이 바뀐 기록으로 보인다."></textarea></label>
+      <button type="button" id="check-driving-data">내 기록 확인하기</button>
+      <p id="driving-check-result" role="status"></p>
+    </section>
+
+    <section class="online-simulation" id="vscode-simulation" hidden>
+      <div class="data-panel-head">
+        <div>
+          <p class="eyebrow">ONLINE DATA SIMULATION</p>
+          <h2 id="sim-title">주행 데이터 온라인 시뮬레이션</h2>
+          <p>재생 버튼을 누르고 차량 위치, 속도, 조향 관련 값이 시간에 따라 어떻게 바뀌는지 관찰하세요.</p>
+        </div>
+        <span class="theme-chip" id="sim-source-badge">교사 제공 연습 데이터</span>
+      </div>
+      <div class="sim-controls">
+        <label>자료 선택
+          <select id="simulation-source">
+            <option value="comma">comma2k19 기반 연습 데이터</option>
+            <option value="aihub">AI-Hub 교통물류 기반 연습 데이터</option>
+          </select>
+        </label>
+        <button type="button" id="sim-play">▶ 재생</button>
+        <button type="button" id="sim-reset" class="secondary">↺ 처음으로</button>
+        <label class="speed-control">재생 속도<input id="sim-speed" type="range" min="1" max="5" value="2"><span id="sim-speed-label">2배</span></label>
+        <label class="csv-upload">교사 CSV 불러오기<input id="sim-csv" type="file" accept=".csv,text/csv"></label>
+      </div>
+      <div class="sim-stage" aria-live="polite">
+        <div class="sim-road"><div class="sim-lane-line"></div><div class="sim-car" id="sim-car">🚗</div></div>
+        <div class="sim-readout">
+          <span>행 <b id="sim-row">1</b></span>
+          <span>시간 <b id="sim-time">-</b></span>
+          <span>속도 <b id="sim-speed-value">-</b></span>
+          <span>조향 관련 값 <b id="sim-steering-value">-</b></span>
+        </div>
+      </div>
+      <div class="sim-task-grid">
+        <article><b>관찰 미션 1</b><p>속도가 가장 높아지는 행 번호를 기록하세요.</p><input id="sim-task-fast" placeholder="행 번호"></article>
+        <article><b>관찰 미션 2</b><p>조향 관련 값이 바뀌는 행을 하나 찾고 이유를 적으세요.</p><input id="sim-task-turn" placeholder="행 번호와 이유"></article>
+        <article><b>관찰 미션 3</b><p>재생 후 데이터 근거를 한 문장으로 정리하세요.</p><textarea id="sim-task-judgement" placeholder="내가 관찰한 사실과 근거"></textarea></article>
+      </div>
+      <p class="sim-source-note"><b>자료 사용 방법:</b> 학생은 재생 화면에서 관찰하고, 교사는 공식 자료에서 필요한 열만 추린 CSV를 업로드할 수 있습니다. 공식 원자료 전체를 학생이 직접 내려받을 필요는 없습니다. <a href="https://github.com/commaai/comma2k19" target="_blank" rel="noopener">comma2k19 공식 설명</a> · <a href="https://aihub.or.kr/aihubdata/data/list.do?currMenu=115&amp;searchKeyword=%EC%9E%90%EC%9C%A8%EC%A3%BC%ED%96%89&amp;topMenu=100" target="_blank" rel="noopener">AI-Hub 교통물류 검색</a></p>
+    </section>
+
+    <section class="tool-lab-panel" id="tool-lab-panel">
+      <div class="data-panel-head">
+        <div>
+          <p class="eyebrow">WIRESHARK LAB</p>
+          <h2>Wireshark 패킷 관찰소</h2>
+          <p>온라인 주행 데이터에서 찾은 움직임을 실제 네트워크 패킷의 관찰·필터·증거 기록으로 연결합니다.</p>
+        </div>
+        <span class="theme-chip">Wireshark 중심</span>
+      </div>
+      <div class="tool-card-grid">
+        <article class="tool-card">
+          <span class="stage-zone">01 · 캡처 준비</span>
+          <h3>관찰 대상 정하기</h3>
+          <p>학생이 실행할 웹 요청이나 Python 예제를 하나 정하고, 시작 전 최초 판단을 먼저 기록합니다.</p>
+          <ol><li>관찰할 요청·주소를 정하기</li><li>Wireshark 캡처 시작</li><li>실행 후 캡처를 중지하고 pcapng로 저장</li></ol>
+          <a href="https://www.wireshark.org/docs/" target="_blank" rel="noopener">Wireshark 공식 문서 열기</a>
+          <small>교사 안내: 본인 실습 장치의 트래픽만 캡처하고, 다른 사람의 통신은 캡처하지 않습니다.</small>
+        </article>
+        <article class="tool-card">
+          <span class="stage-zone">02 · 필터 관찰</span>
+          <h3>Display Filter로 좁히기</h3>
+          <p>전체 캡처에서 필요한 패킷만 필터링하고, 패킷 번호·출발지·목적지·프로토콜을 기록합니다.</p>
+          <code class="command-block">tcp
+ip.addr == 127.0.0.1
+tcp.port == 8001</code>
+          <button type="button" class="copy-command" data-command="tcp">필터 복사</button>
+          <a href="https://www.wireshark.org/docs/man-pages/wireshark-filter.html" target="_blank" rel="noopener">Wireshark 필터 문서</a>
+        </article>
+        <article class="tool-card">
+          <span class="stage-zone">03 · 증거 기록</span>
+          <h3>패킷에서 판단 만들기</h3>
+          <p>필터 결과를 화면 캡처하고, 관찰 사실과 학생의 최종 판단을 분리해 기록합니다.</p>
+          <ol><li>프레임 번호를 적기</li><li>눈에 띄는 필드를 한 문장으로 설명</li><li>처음 판단과 비교해 수정·재검증</li></ol>
+          <a href="#memory-workflow">증거 기록으로 이동</a>
+          <small>권장 산출물: pcapng 파일, 필터 문자열, 화면 캡처, 판단 문장</small>
+        </article>
+      </div>
+      <div class="wire-flow" id="observe-flow" aria-label="온라인 통신 흐름">
+        <div class="wire-flow-head">
+          <div>
+            <p class="eyebrow">ONLINE COMMUNICATION FLOW</p>
+            <h3>브라우저 요청이 패킷으로 보이는 과정</h3>
+          </div>
+          <span class="theme-chip">관찰 순서</span>
+        </div>
+        <div class="wire-flow-track">
+          <article class="flow-action" role="button" tabindex="0" data-flow-step="1"><span class="wire-step">1</span><b>브라우저</b><small>URL 요청 생성</small></article>
+          <span class="wire-arrow">→</span>
+          <article class="flow-action" role="button" tabindex="0" data-flow-step="2"><span class="wire-step">2</span><b>TCP 연결</b><small>SYN · SYN/ACK · ACK</small></article>
+          <span class="wire-arrow">→</span>
+          <article class="flow-action" role="button" tabindex="0" data-flow-step="3"><span class="wire-step">3</span><b>데이터 전송</b><small>HTTP 요청·응답 패킷</small></article>
+          <span class="wire-arrow">→</span>
+          <article class="flow-action" role="button" tabindex="0" data-flow-step="4"><span class="wire-step">4</span><b>Wireshark</b><small>필터·프레임·증거 기록</small></article>
+        </div>
+        <p class="sim-source-note">실습 예: 본인 컴퓨터에서 웹 페이지를 열고 캡처를 시작한 뒤 <code>tcp.port == 8001</code> 또는 실제 서비스 포트로 좁혀 보세요. 먼저 관찰한 패킷 번호를 적고, 그 다음 TCP 플래그와 주소를 해석합니다.</p>
+      </div>
+      <p id="tool-copy-status" class="sim-source-note" role="status">필터·프레임 번호·화면 캡처·관찰 문장을 다음 단계 증거에 첨부하세요.</p>
+      <div class="packet-simulator" id="packet-simulator">
+        <div class="wire-flow-head">
+          <div>
+            <p class="eyebrow">ONLINE PACKET CAPTURE</p>
+            <h3>라즈베리 파이 ↔ 자율주행 자동차 통신 관찰</h3>
+          </div>
+          <span id="capture-status" class="theme-chip">대기 중</span>
+        </div>
+        <p>실제 장치 없이도 두 장치가 주행 데이터를 주고받는 과정을 온라인에서 관찰합니다. 캡처를 시작하고 필터를 넣어 필요한 패킷만 찾아보세요.</p>
+        <label class="packet-scenario">통신 시나리오
+          <select id="packet-scenario" aria-label="통신 시나리오">
+            <option value="raspberry">라즈베리 파이 ↔ 자율주행 자동차</option>
+            <option value="web">브라우저 ↔ 연습 서버</option>
+          </select>
+        </label>
+        <div class="packet-controls">
+          <button type="button" id="capture-start">▶ 캡처 시작</button>
+          <button type="button" id="capture-stop" disabled>■ 중지</button>
+          <input id="packet-filter" placeholder="예: tcp.port == 8001" aria-label="패킷 필터" />
+          <button type="button" id="packet-filter-apply">필터 적용</button>
+        </div>
+        <div class="packet-table-wrap">
+          <table class="packet-table" aria-label="온라인 패킷 목록">
+            <thead><tr><th>번호</th><th>시간</th><th>출발지</th><th>목적지</th><th>프로토콜</th><th>정보</th></tr></thead>
+            <tbody id="packet-list"><tr><td colspan="6">캡처 시작을 눌러 패킷을 확인하세요.</td></tr></tbody>
+          </table>
+        </div>
+        <div id="packet-evidence-summary" class="packet-evidence-summary" role="status">
+          <b>증거 기록 묶음</b><span>패킷을 선택하면 필터와 관찰 증거가 함께 표시됩니다.</span>
+        </div>
+        <p id="packet-selection" class="sim-source-note" role="status">패킷 행을 클릭하면 증거 기록 칸에 번호와 필터가 채워집니다.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>탐구 루프</h2>
+      <div class="flow" id="flow"></div>
+    </section>
+
+    <section class="evidence">
+      <h2>간단 메모</h2>
+      <label>관찰한 패킷/실행 결과<textarea id="evidence"></textarea></label>
+      <label>현재 판단<textarea id="judgement"></textarea></label>
+      <button id="save">현재 단계 저장</button>
+      <p id="save-result" role="status"></p>
+    </section>
+
+    <section class="memory-workflow" id="memory-workflow">
+      <p class="eyebrow">EVIDENCE BEFORE AI</p>
+      <h2>판단 변화 기록</h2>
+      <p class="guardrail">먼저 최초 판단을 저장해야 알라딘 힌트와 로그 기록을 사용할 수 있습니다.</p>
+
+      <div class="memory-grid">
+        <article>
+          <h3>1. AI 사용 전 최초 판단</h3>
+          <textarea id="initial-judgement" placeholder="현재 패킷 증거만 보고 원인을 어떻게 판단하는지 적어보세요."></textarea>
+          <button id="save-initial">최초 판단 저장</button>
+        </article>
+
+        <article>
+          <h3>2. Wireshark 증거</h3>
+          <label>출처
+            <select id="evidence-source">
+              <option value="wireshark">Wireshark</option>
+            </select>
+          </label>
+          <label>패킷 번호<input id="packet-no"></label>
+          <label>필터<input id="filter-used" placeholder="tcp.port == 9000"></label>
+          <textarea id="memory-evidence" placeholder="증거가 보여주는 사실을 적으세요."></textarea>
+          <button id="save-evidence">증거 저장</button>
+        </article>
+
+        <article class="chat-gate-card">
+          <h3>챗봇 사용 전 기준</h3>
+          <ol class="chat-gate-list">
+            <li><b>1번</b> 관찰 대상을 정하고 캡처를 시작한다.</li>
+            <li><b>2번</b> Wireshark에서 패킷을 찾고 프레임 번호를 적는다.</li>
+            <li><b>3번</b> 사용한 필터와 눈에 띄는 필드를 기록한다.</li>
+            <li><b>4번</b> AI 없이 최초 판단을 먼저 저장한다.</li>
+          </ol>
+          <p class="guardrail">네 가지를 완료한 뒤 챗봇에 질문하세요.</p>
+        </article>
+
+        <article class="chat-card floating-chat">
+          <div class="floating-chat-head"><h3>3. 나만의 학습 챗봇에게 물어보기</h3><span>화면 따라오기</span></div>
+          <p>내가 선택한 패킷과 학습기억을 바탕으로 답하는 나만의 네트워크 코치입니다. 모르는 점을 편하게 물어보고, 답을 그대로 외우기보다 증거와 비교해 보세요.</p>
+          <div id="chat-history" class="chat-history">
+            <div class="chat-message bot"><b>알라딘 학습 챗봇</b><p>좋은 질문이에요. 먼저 화면에서 보이는 패킷 번호나 값을 하나 고르고, 그 값이 무엇을 뜻하는지 함께 확인해 볼까요?</p></div>
+          </div>
+          <div class="suggested-questions" aria-label="나만의 학습 챗봇 추천 질문">
+            <span>이런 식으로 물어보세요 · 쉬운 질문부터 한 단계씩</span>
+            <button type="button" class="question-chip" data-question="이 패킷에서 먼저 확인해야 할 필드는 무엇인가요?">필드 확인</button>
+            <button type="button" class="question-chip" data-question="내 최초 판단이 맞는지 어떤 패킷 증거로 검증할까요?">판단 검증</button>
+            <button type="button" class="question-chip" data-question="SYN과 SYN/ACK의 차이를 내 관찰 결과와 연결해 설명해줘.">TCP 연결</button>
+            <button type="button" class="question-chip" data-question="이 패킷의 출발지와 목적지를 어린 동생에게 설명하듯 알려줘.">주소 찾기</button>
+            <button type="button" class="question-chip" data-question="내가 적은 속도·조향 변화와 이 패킷 시간이 서로 연결되는지 같이 찾아줘.">주행 연결</button>
+            <button type="button" class="question-chip" data-question="정답을 바로 말하지 말고, 다음에 확인할 한 가지를 질문으로 내줘.">다음 힌트</button>
+            <button type="button" class="question-chip" data-question="내 증거에서 사실과 내 추측을 나누어 표시해줘.">사실과 추측</button>
+            <button type="button" class="question-chip" data-question="필터를 tcp.port == 8001에서 바꾸면 무엇이 달라질지 먼저 예측하게 도와줘.">필터 바꾸기</button>
+          </div>
+          <div class="chat-composer">
+            <input id="gemini-question" type="text" autocomplete="off" placeholder="패킷을 보고 궁금한 점을 자유롭게 입력하세요…">
+            <button id="auto-question" type="button" class="secondary-button">내 질문 자동 입력</button>
+            <button id="send-chat">보내기</button>
+          </div>
+          <span id="chat-status" role="status"></span>
+          <small class="api-key-note">API 키는 서버의 <code>.env</code>에 저장하고 브라우저에는 노출하지 않습니다.</small>
+        </article>
+
+        <article>
+          <h3>4. 내 생각 정리하기</h3>
+          <textarea id="gemini-hypotheses" placeholder="챗봇의 설명 중 확인해 보고 싶은 가설을 한 줄로 적어보세요."></textarea>
+          <textarea id="final-judgement" placeholder="패킷을 다시 보고, 이제 내 생각을 적어보세요."></textarea>
+          <input id="adopted-hypothesis" placeholder="챗봇의 설명 중 도움이 된 부분">
+          <button id="save-final">내 생각 저장하기</button>
+        </article>
+      </div>
+
+      <p id="memory-result" role="status"></p>
+
+      <article class="memory-preview">
+        <h3>다음 차시 알라딘용 학생 학습 기억</h3>
+        <button id="build-prompt">기억 프롬프트 만들기</button>
+        <pre id="prompt-preview">로그인 후 생성할 수 있습니다.</pre>
+      </article>
+    </section>
+
+    <section class="submission" id="submit-work">
+      <p class="eyebrow">MY DRIVE LEARNING LOG</p>
+      <h2>학교 Google Drive에 학습 기록 남기기</h2>
+      <p>Google 로그인 없이 학번으로 기록합니다. 교사 Drive의 <b>Network-LAB_학생기록</b> 시트에 학습 내용과 회고가 자동 저장됩니다.</p>
+      <form id="submission-form">
+        <div class="form-grid">
+          <input id="student-name" type="hidden" value="비공개">
+          <label>학번<input id="student-id" required maxlength="30"></label>
+          <label>제출 스테이지<select id="submission-lesson"></select></label>
+        </div>
+        <label>회고<textarea id="reflection" maxlength="1000"></textarea></label>
+        <button type="submit">학습기록 자동 저장</button>
+      </form>
+      <div id="submission-result" role="status"></div>
+      <h3>자동 저장 안내</h3>
+      <div id="my-submissions" class="cards"></div>
+    </section>
+  </main>
+
+    <script src="app.js?v=35"></script>
+</body>
+</html>
+
