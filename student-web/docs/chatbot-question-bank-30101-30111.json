@@ -1,0 +1,7706 @@
+{
+  "description": "학생별 챗봇 수업 질문은행",
+  "total": 1100,
+  "questions": [
+    {
+      "student_code": "30101",
+      "question_no": 1,
+      "type": "기초 관찰",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "화면에서 가장 먼저 볼 곳은 어디인가요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 2,
+      "type": "기초 관찰",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "이 표에서 눈에 띄는 값은 무엇인가요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 3,
+      "type": "기초 관찰",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "지금 본 것을 한 문장으로 말하면 무엇인가요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 4,
+      "type": "기초 관찰",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "이 값이 바뀐 행을 찾을 수 있나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 5,
+      "type": "기초 관찰",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "관찰한 사실과 내 생각을 어떻게 나누나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 6,
+      "type": "기초 관찰",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "처음 시작할 때 무엇을 기록해야 하나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 7,
+      "type": "기초 관찰",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "이 활동의 성공 조건은 무엇인가요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 8,
+      "type": "기초 관찰",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "모르는 단어를 쉬운 말로 바꿔 줄 수 있나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 9,
+      "type": "기초 관찰",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "친구에게 이 화면을 어떻게 설명하면 좋나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 10,
+      "type": "기초 관찰",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "다음에 확인할 한 가지를 골라 주세요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 11,
+      "type": "주행 데이터",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "속도가 가장 높은 행은 몇 번인가요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 12,
+      "type": "주행 데이터",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "속도가 0인 행에서는 차가 어떻게 움직였나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 13,
+      "type": "주행 데이터",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "조향 값이 양수인 행을 찾아 주세요."
+    },
+    {
+      "student_code": "30101",
+      "question_no": 14,
+      "type": "주행 데이터",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "조향 값이 음수인 행을 찾아 주세요."
+    },
+    {
+      "student_code": "30101",
+      "question_no": 15,
+      "type": "주행 데이터",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "앞 행과 뒤 행의 속도를 비교해 주세요."
+    },
+    {
+      "student_code": "30101",
+      "question_no": 16,
+      "type": "주행 데이터",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "속도와 조향이 동시에 바뀐 행이 있나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 17,
+      "type": "주행 데이터",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "시간 순서대로 차량 움직임을 말해 주세요."
+    },
+    {
+      "student_code": "30101",
+      "question_no": 18,
+      "type": "주행 데이터",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "이 데이터로 예측할 수 있는 차량 상태는 무엇인가요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 19,
+      "type": "주행 데이터",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "제가 찾은 행 번호가 맞는지 확인해 주세요."
+    },
+    {
+      "student_code": "30101",
+      "question_no": 20,
+      "type": "주행 데이터",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "주행 데이터와 패킷을 어떻게 연결하나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 21,
+      "type": "Wireshark",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "캡처를 시작했는지 어떻게 확인하나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 22,
+      "type": "Wireshark",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "패킷 번호는 어디에 있나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 23,
+      "type": "Wireshark",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "출발지와 목적지는 어떻게 구분하나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 24,
+      "type": "Wireshark",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "이 패킷의 프로토콜은 무엇인가요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 25,
+      "type": "Wireshark",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "정보 열에서 먼저 볼 내용은 무엇인가요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 26,
+      "type": "Wireshark",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "필터를 적용하면 무엇이 달라지나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 27,
+      "type": "Wireshark",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "화면 캡처를 증거로 남겨도 될까요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 28,
+      "type": "Wireshark",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "내가 찾은 패킷을 다시 확인하는 방법은 무엇인가요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 29,
+      "type": "Wireshark",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "Wireshark 결과를 한 문장으로 설명해 주세요."
+    },
+    {
+      "student_code": "30101",
+      "question_no": 30,
+      "type": "Wireshark",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "내가 본 패킷이 주행 데이터와 연결되나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 31,
+      "type": "TCP 연결",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "SYN은 어떤 시작 신호인가요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 32,
+      "type": "TCP 연결",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "SYN/ACK는 왜 돌아오나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 33,
+      "type": "TCP 연결",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "ACK는 무슨 뜻인가요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 34,
+      "type": "TCP 연결",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "세 패킷의 순서를 찾아 주세요."
+    },
+    {
+      "student_code": "30101",
+      "question_no": 35,
+      "type": "TCP 연결",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "SYN과 SYN/ACK를 화면에서 어떻게 구분하나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 36,
+      "type": "TCP 연결",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "TCP 연결이 끝나지 않으면 무엇을 확인하나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 37,
+      "type": "TCP 연결",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "출발지 포트와 목적지 포트는 무엇인가요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 38,
+      "type": "TCP 연결",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "TCP 연결을 악수에 비유해도 되나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 39,
+      "type": "TCP 연결",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "내가 찾은 TCP 흐름이 맞는지 확인해 주세요."
+    },
+    {
+      "student_code": "30101",
+      "question_no": 40,
+      "type": "TCP 연결",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "TCP 흐름을 친구에게 쉽게 설명해 주세요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 41,
+      "type": "필터",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "tcp.port == 8001 필터는 무엇을 찾나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 42,
+      "type": "필터",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "ip.addr 필터는 언제 사용하나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 43,
+      "type": "필터",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "필터를 지우면 어떤 패킷이 다시 보이나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 44,
+      "type": "필터",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "필터 결과가 0개인 이유는 무엇인가요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 45,
+      "type": "필터",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "포트 번호를 바꾸면 무엇이 달라지나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 46,
+      "type": "필터",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "두 조건을 함께 쓰려면 어떻게 하나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 47,
+      "type": "필터",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "필터를 적용하기 전에 무엇을 예측하나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 48,
+      "type": "필터",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "필터 결과 중 한 행을 고르는 기준은 무엇인가요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 49,
+      "type": "필터",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "내 필터가 맞는지 확인할 방법은 무엇인가요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 50,
+      "type": "필터",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "필터와 프레임 번호를 함께 기록해 주세요."
+    },
+    {
+      "student_code": "30101",
+      "question_no": 51,
+      "type": "증거 기록",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "증거로 남길 프레임은 몇 번인가요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 52,
+      "type": "증거 기록",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "이 화면에서 사실만 골라 주세요."
+    },
+    {
+      "student_code": "30101",
+      "question_no": 53,
+      "type": "증거 기록",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "내 판단을 뒷받침하는 값은 무엇인가요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 54,
+      "type": "증거 기록",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "필터 문자열을 어디에 적나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 55,
+      "type": "증거 기록",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "패킷 번호와 시간은 어떻게 연결하나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 56,
+      "type": "증거 기록",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "처음 판단과 지금 판단이 어떻게 달라졌나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 57,
+      "type": "증거 기록",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "증거가 부족하면 무엇을 더 캡처하나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 58,
+      "type": "증거 기록",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "팀원에게 보여 줄 핵심 화면은 무엇인가요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 59,
+      "type": "증거 기록",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "한 문장 판단을 만들어 주세요."
+    },
+    {
+      "student_code": "30101",
+      "question_no": 60,
+      "type": "증거 기록",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "저장하기 전에 빠진 기록이 있는지 점검해 주세요."
+    },
+    {
+      "student_code": "30101",
+      "question_no": 61,
+      "type": "챗봇 대화",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "정답 말고 다음에 볼 곳만 알려 주세요."
+    },
+    {
+      "student_code": "30101",
+      "question_no": 62,
+      "type": "챗봇 대화",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "이 내용을 초등학생도 알 수 있게 설명해 주세요."
+    },
+    {
+      "student_code": "30101",
+      "question_no": 63,
+      "type": "챗봇 대화",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "제가 직접 확인할 질문을 하나 내 주세요."
+    },
+    {
+      "student_code": "30101",
+      "question_no": 64,
+      "type": "챗봇 대화",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "내 말에서 잘한 점을 찾아 주세요."
+    },
+    {
+      "student_code": "30101",
+      "question_no": 65,
+      "type": "챗봇 대화",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "내 생각과 증거가 맞는지 비교해 주세요."
+    },
+    {
+      "student_code": "30101",
+      "question_no": 66,
+      "type": "챗봇 대화",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "힌트를 한 단계만 주세요."
+    },
+    {
+      "student_code": "30101",
+      "question_no": 67,
+      "type": "챗봇 대화",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "다른 예시로 다시 설명해 주세요."
+    },
+    {
+      "student_code": "30101",
+      "question_no": 68,
+      "type": "챗봇 대화",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "제가 틀렸다면 왜 그런지 쉽게 알려 주세요."
+    },
+    {
+      "student_code": "30101",
+      "question_no": 69,
+      "type": "챗봇 대화",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "다음 차시에 기억할 내용을 한 줄로 정리해 주세요."
+    },
+    {
+      "student_code": "30101",
+      "question_no": 70,
+      "type": "챗봇 대화",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "친구에게 물어볼 질문으로 바꿔 주세요."
+    },
+    {
+      "student_code": "30101",
+      "question_no": 71,
+      "type": "판단",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "처음 생각은 무엇이었나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 72,
+      "type": "판단",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "관찰 결과를 근거로 결론을 써도 될까요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 73,
+      "type": "판단",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "사실과 추측을 나눠 주세요."
+    },
+    {
+      "student_code": "30101",
+      "question_no": 74,
+      "type": "판단",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "어떤 증거가 가장 중요했나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 75,
+      "type": "판단",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "내 판단에서 빠진 부분은 무엇인가요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 76,
+      "type": "판단",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "반대되는 증거도 있나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 77,
+      "type": "판단",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "판단을 바꾸어야 할까요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 78,
+      "type": "판단",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "결론을 짧게 줄여 주세요."
+    },
+    {
+      "student_code": "30101",
+      "question_no": 79,
+      "type": "판단",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "선생님께 설명할 때 어떤 순서가 좋나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 80,
+      "type": "판단",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "최종 판단을 저장하기 전에 확인해 주세요."
+    },
+    {
+      "student_code": "30101",
+      "question_no": 81,
+      "type": "수정·재검증",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "코드를 바꾸면 어떤 결과를 예상하나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 82,
+      "type": "수정·재검증",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "필터를 바꾼 뒤 무엇을 비교하나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 83,
+      "type": "수정·재검증",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "같은 실험을 다시 하려면 무엇을 초기화하나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 84,
+      "type": "수정·재검증",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "결과가 달라진 이유를 찾을 수 있나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 85,
+      "type": "수정·재검증",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "재검증할 때 같은 조건을 써야 하나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 86,
+      "type": "수정·재검증",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "새 패킷이 생겼는지 어떻게 확인하나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 87,
+      "type": "수정·재검증",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "수정 전과 후를 표로 비교해 주세요."
+    },
+    {
+      "student_code": "30101",
+      "question_no": 88,
+      "type": "수정·재검증",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "오류가 다시 나오면 첫 번째로 무엇을 확인하나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 89,
+      "type": "수정·재검증",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "내 수정이 문제를 해결했는지 판단해 주세요."
+    },
+    {
+      "student_code": "30101",
+      "question_no": 90,
+      "type": "수정·재검증",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "다음 실험에서 바꿀 한 가지를 정해 주세요."
+    },
+    {
+      "student_code": "30101",
+      "question_no": 91,
+      "type": "팀 활동",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "우리 팀의 역할은 무엇인가요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 92,
+      "type": "팀 활동",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "팀원에게 어떤 증거를 부탁할까요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 93,
+      "type": "팀 활동",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "두 팀의 결과를 공정하게 비교하려면 무엇을 보나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 94,
+      "type": "팀 활동",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "내가 찾은 내용을 팀 채팅에 어떻게 공유하나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 95,
+      "type": "팀 활동",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "친구의 판단과 내 판단이 다르면 어떻게 하나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 96,
+      "type": "팀 활동",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "돌발 미션을 해결하려면 누구와 먼저 이야기하나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 97,
+      "type": "팀 활동",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "팀원에게 TCP 흐름을 설명해 볼까요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 98,
+      "type": "팀 활동",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "우리 팀 자동차 게이지를 올리려면 무엇을 완료해야 하나요?"
+    },
+    {
+      "student_code": "30101",
+      "question_no": 99,
+      "type": "팀 활동",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "팀 결과를 한 문장으로 발표해 주세요."
+    },
+    {
+      "student_code": "30101",
+      "question_no": 100,
+      "type": "팀 활동",
+      "persona": "천천히 읽고 기초부터 확인하는 학생",
+      "question": "다음 역할을 누구에게 맡기면 좋을까요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 1,
+      "type": "기초 관찰",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "화면에서 가장 먼저 볼 곳은 어디인가요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 2,
+      "type": "기초 관찰",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "이 표에서 눈에 띄는 값은 무엇인가요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 3,
+      "type": "기초 관찰",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "지금 본 것을 한 문장으로 말하면 무엇인가요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 4,
+      "type": "기초 관찰",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "이 값이 바뀐 행을 찾을 수 있나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 5,
+      "type": "기초 관찰",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "관찰한 사실과 내 생각을 어떻게 나누나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 6,
+      "type": "기초 관찰",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "처음 시작할 때 무엇을 기록해야 하나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 7,
+      "type": "기초 관찰",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "이 활동의 성공 조건은 무엇인가요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 8,
+      "type": "기초 관찰",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "모르는 단어를 쉬운 말로 바꿔 줄 수 있나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 9,
+      "type": "기초 관찰",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "친구에게 이 화면을 어떻게 설명하면 좋나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 10,
+      "type": "기초 관찰",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "다음에 확인할 한 가지를 골라 주세요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 11,
+      "type": "주행 데이터",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "속도가 가장 높은 행은 몇 번인가요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 12,
+      "type": "주행 데이터",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "속도가 0인 행에서는 차가 어떻게 움직였나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 13,
+      "type": "주행 데이터",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "조향 값이 양수인 행을 찾아 주세요."
+    },
+    {
+      "student_code": "30102",
+      "question_no": 14,
+      "type": "주행 데이터",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "조향 값이 음수인 행을 찾아 주세요."
+    },
+    {
+      "student_code": "30102",
+      "question_no": 15,
+      "type": "주행 데이터",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "앞 행과 뒤 행의 속도를 비교해 주세요."
+    },
+    {
+      "student_code": "30102",
+      "question_no": 16,
+      "type": "주행 데이터",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "속도와 조향이 동시에 바뀐 행이 있나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 17,
+      "type": "주행 데이터",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "시간 순서대로 차량 움직임을 말해 주세요."
+    },
+    {
+      "student_code": "30102",
+      "question_no": 18,
+      "type": "주행 데이터",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "이 데이터로 예측할 수 있는 차량 상태는 무엇인가요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 19,
+      "type": "주행 데이터",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "제가 찾은 행 번호가 맞는지 확인해 주세요."
+    },
+    {
+      "student_code": "30102",
+      "question_no": 20,
+      "type": "주행 데이터",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "주행 데이터와 패킷을 어떻게 연결하나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 21,
+      "type": "Wireshark",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "캡처를 시작했는지 어떻게 확인하나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 22,
+      "type": "Wireshark",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "패킷 번호는 어디에 있나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 23,
+      "type": "Wireshark",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "출발지와 목적지는 어떻게 구분하나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 24,
+      "type": "Wireshark",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "이 패킷의 프로토콜은 무엇인가요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 25,
+      "type": "Wireshark",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "정보 열에서 먼저 볼 내용은 무엇인가요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 26,
+      "type": "Wireshark",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "필터를 적용하면 무엇이 달라지나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 27,
+      "type": "Wireshark",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "화면 캡처를 증거로 남겨도 될까요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 28,
+      "type": "Wireshark",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "내가 찾은 패킷을 다시 확인하는 방법은 무엇인가요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 29,
+      "type": "Wireshark",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "Wireshark 결과를 한 문장으로 설명해 주세요."
+    },
+    {
+      "student_code": "30102",
+      "question_no": 30,
+      "type": "Wireshark",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "내가 본 패킷이 주행 데이터와 연결되나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 31,
+      "type": "TCP 연결",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "SYN은 어떤 시작 신호인가요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 32,
+      "type": "TCP 연결",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "SYN/ACK는 왜 돌아오나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 33,
+      "type": "TCP 연결",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "ACK는 무슨 뜻인가요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 34,
+      "type": "TCP 연결",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "세 패킷의 순서를 찾아 주세요."
+    },
+    {
+      "student_code": "30102",
+      "question_no": 35,
+      "type": "TCP 연결",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "SYN과 SYN/ACK를 화면에서 어떻게 구분하나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 36,
+      "type": "TCP 연결",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "TCP 연결이 끝나지 않으면 무엇을 확인하나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 37,
+      "type": "TCP 연결",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "출발지 포트와 목적지 포트는 무엇인가요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 38,
+      "type": "TCP 연결",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "TCP 연결을 악수에 비유해도 되나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 39,
+      "type": "TCP 연결",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "내가 찾은 TCP 흐름이 맞는지 확인해 주세요."
+    },
+    {
+      "student_code": "30102",
+      "question_no": 40,
+      "type": "TCP 연결",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "TCP 흐름을 친구에게 쉽게 설명해 주세요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 41,
+      "type": "필터",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "tcp.port == 8001 필터는 무엇을 찾나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 42,
+      "type": "필터",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "ip.addr 필터는 언제 사용하나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 43,
+      "type": "필터",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "필터를 지우면 어떤 패킷이 다시 보이나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 44,
+      "type": "필터",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "필터 결과가 0개인 이유는 무엇인가요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 45,
+      "type": "필터",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "포트 번호를 바꾸면 무엇이 달라지나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 46,
+      "type": "필터",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "두 조건을 함께 쓰려면 어떻게 하나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 47,
+      "type": "필터",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "필터를 적용하기 전에 무엇을 예측하나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 48,
+      "type": "필터",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "필터 결과 중 한 행을 고르는 기준은 무엇인가요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 49,
+      "type": "필터",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "내 필터가 맞는지 확인할 방법은 무엇인가요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 50,
+      "type": "필터",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "필터와 프레임 번호를 함께 기록해 주세요."
+    },
+    {
+      "student_code": "30102",
+      "question_no": 51,
+      "type": "증거 기록",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "증거로 남길 프레임은 몇 번인가요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 52,
+      "type": "증거 기록",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "이 화면에서 사실만 골라 주세요."
+    },
+    {
+      "student_code": "30102",
+      "question_no": 53,
+      "type": "증거 기록",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "내 판단을 뒷받침하는 값은 무엇인가요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 54,
+      "type": "증거 기록",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "필터 문자열을 어디에 적나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 55,
+      "type": "증거 기록",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "패킷 번호와 시간은 어떻게 연결하나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 56,
+      "type": "증거 기록",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "처음 판단과 지금 판단이 어떻게 달라졌나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 57,
+      "type": "증거 기록",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "증거가 부족하면 무엇을 더 캡처하나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 58,
+      "type": "증거 기록",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "팀원에게 보여 줄 핵심 화면은 무엇인가요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 59,
+      "type": "증거 기록",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "한 문장 판단을 만들어 주세요."
+    },
+    {
+      "student_code": "30102",
+      "question_no": 60,
+      "type": "증거 기록",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "저장하기 전에 빠진 기록이 있는지 점검해 주세요."
+    },
+    {
+      "student_code": "30102",
+      "question_no": 61,
+      "type": "챗봇 대화",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "정답 말고 다음에 볼 곳만 알려 주세요."
+    },
+    {
+      "student_code": "30102",
+      "question_no": 62,
+      "type": "챗봇 대화",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "이 내용을 초등학생도 알 수 있게 설명해 주세요."
+    },
+    {
+      "student_code": "30102",
+      "question_no": 63,
+      "type": "챗봇 대화",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "제가 직접 확인할 질문을 하나 내 주세요."
+    },
+    {
+      "student_code": "30102",
+      "question_no": 64,
+      "type": "챗봇 대화",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "내 말에서 잘한 점을 찾아 주세요."
+    },
+    {
+      "student_code": "30102",
+      "question_no": 65,
+      "type": "챗봇 대화",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "내 생각과 증거가 맞는지 비교해 주세요."
+    },
+    {
+      "student_code": "30102",
+      "question_no": 66,
+      "type": "챗봇 대화",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "힌트를 한 단계만 주세요."
+    },
+    {
+      "student_code": "30102",
+      "question_no": 67,
+      "type": "챗봇 대화",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "다른 예시로 다시 설명해 주세요."
+    },
+    {
+      "student_code": "30102",
+      "question_no": 68,
+      "type": "챗봇 대화",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "제가 틀렸다면 왜 그런지 쉽게 알려 주세요."
+    },
+    {
+      "student_code": "30102",
+      "question_no": 69,
+      "type": "챗봇 대화",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "다음 차시에 기억할 내용을 한 줄로 정리해 주세요."
+    },
+    {
+      "student_code": "30102",
+      "question_no": 70,
+      "type": "챗봇 대화",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "친구에게 물어볼 질문으로 바꿔 주세요."
+    },
+    {
+      "student_code": "30102",
+      "question_no": 71,
+      "type": "판단",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "처음 생각은 무엇이었나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 72,
+      "type": "판단",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "관찰 결과를 근거로 결론을 써도 될까요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 73,
+      "type": "판단",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "사실과 추측을 나눠 주세요."
+    },
+    {
+      "student_code": "30102",
+      "question_no": 74,
+      "type": "판단",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "어떤 증거가 가장 중요했나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 75,
+      "type": "판단",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "내 판단에서 빠진 부분은 무엇인가요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 76,
+      "type": "판단",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "반대되는 증거도 있나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 77,
+      "type": "판단",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "판단을 바꾸어야 할까요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 78,
+      "type": "판단",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "결론을 짧게 줄여 주세요."
+    },
+    {
+      "student_code": "30102",
+      "question_no": 79,
+      "type": "판단",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "선생님께 설명할 때 어떤 순서가 좋나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 80,
+      "type": "판단",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "최종 판단을 저장하기 전에 확인해 주세요."
+    },
+    {
+      "student_code": "30102",
+      "question_no": 81,
+      "type": "수정·재검증",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "코드를 바꾸면 어떤 결과를 예상하나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 82,
+      "type": "수정·재검증",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "필터를 바꾼 뒤 무엇을 비교하나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 83,
+      "type": "수정·재검증",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "같은 실험을 다시 하려면 무엇을 초기화하나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 84,
+      "type": "수정·재검증",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "결과가 달라진 이유를 찾을 수 있나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 85,
+      "type": "수정·재검증",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "재검증할 때 같은 조건을 써야 하나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 86,
+      "type": "수정·재검증",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "새 패킷이 생겼는지 어떻게 확인하나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 87,
+      "type": "수정·재검증",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "수정 전과 후를 표로 비교해 주세요."
+    },
+    {
+      "student_code": "30102",
+      "question_no": 88,
+      "type": "수정·재검증",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "오류가 다시 나오면 첫 번째로 무엇을 확인하나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 89,
+      "type": "수정·재검증",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "내 수정이 문제를 해결했는지 판단해 주세요."
+    },
+    {
+      "student_code": "30102",
+      "question_no": 90,
+      "type": "수정·재검증",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "다음 실험에서 바꿀 한 가지를 정해 주세요."
+    },
+    {
+      "student_code": "30102",
+      "question_no": 91,
+      "type": "팀 활동",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "우리 팀의 역할은 무엇인가요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 92,
+      "type": "팀 활동",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "팀원에게 어떤 증거를 부탁할까요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 93,
+      "type": "팀 활동",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "두 팀의 결과를 공정하게 비교하려면 무엇을 보나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 94,
+      "type": "팀 활동",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "내가 찾은 내용을 팀 채팅에 어떻게 공유하나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 95,
+      "type": "팀 활동",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "친구의 판단과 내 판단이 다르면 어떻게 하나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 96,
+      "type": "팀 활동",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "돌발 미션을 해결하려면 누구와 먼저 이야기하나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 97,
+      "type": "팀 활동",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "팀원에게 TCP 흐름을 설명해 볼까요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 98,
+      "type": "팀 활동",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "우리 팀 자동차 게이지를 올리려면 무엇을 완료해야 하나요?"
+    },
+    {
+      "student_code": "30102",
+      "question_no": 99,
+      "type": "팀 활동",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "팀 결과를 한 문장으로 발표해 주세요."
+    },
+    {
+      "student_code": "30102",
+      "question_no": 100,
+      "type": "팀 활동",
+      "persona": "직접 눌러 보며 배우는 학생",
+      "question": "다음 역할을 누구에게 맡기면 좋을까요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 1,
+      "type": "기초 관찰",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "화면에서 가장 먼저 볼 곳은 어디인가요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 2,
+      "type": "기초 관찰",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "이 표에서 눈에 띄는 값은 무엇인가요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 3,
+      "type": "기초 관찰",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "지금 본 것을 한 문장으로 말하면 무엇인가요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 4,
+      "type": "기초 관찰",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "이 값이 바뀐 행을 찾을 수 있나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 5,
+      "type": "기초 관찰",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "관찰한 사실과 내 생각을 어떻게 나누나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 6,
+      "type": "기초 관찰",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "처음 시작할 때 무엇을 기록해야 하나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 7,
+      "type": "기초 관찰",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "이 활동의 성공 조건은 무엇인가요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 8,
+      "type": "기초 관찰",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "모르는 단어를 쉬운 말로 바꿔 줄 수 있나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 9,
+      "type": "기초 관찰",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "친구에게 이 화면을 어떻게 설명하면 좋나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 10,
+      "type": "기초 관찰",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "다음에 확인할 한 가지를 골라 주세요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 11,
+      "type": "주행 데이터",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "속도가 가장 높은 행은 몇 번인가요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 12,
+      "type": "주행 데이터",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "속도가 0인 행에서는 차가 어떻게 움직였나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 13,
+      "type": "주행 데이터",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "조향 값이 양수인 행을 찾아 주세요."
+    },
+    {
+      "student_code": "30103",
+      "question_no": 14,
+      "type": "주행 데이터",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "조향 값이 음수인 행을 찾아 주세요."
+    },
+    {
+      "student_code": "30103",
+      "question_no": 15,
+      "type": "주행 데이터",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "앞 행과 뒤 행의 속도를 비교해 주세요."
+    },
+    {
+      "student_code": "30103",
+      "question_no": 16,
+      "type": "주행 데이터",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "속도와 조향이 동시에 바뀐 행이 있나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 17,
+      "type": "주행 데이터",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "시간 순서대로 차량 움직임을 말해 주세요."
+    },
+    {
+      "student_code": "30103",
+      "question_no": 18,
+      "type": "주행 데이터",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "이 데이터로 예측할 수 있는 차량 상태는 무엇인가요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 19,
+      "type": "주행 데이터",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "제가 찾은 행 번호가 맞는지 확인해 주세요."
+    },
+    {
+      "student_code": "30103",
+      "question_no": 20,
+      "type": "주행 데이터",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "주행 데이터와 패킷을 어떻게 연결하나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 21,
+      "type": "Wireshark",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "캡처를 시작했는지 어떻게 확인하나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 22,
+      "type": "Wireshark",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "패킷 번호는 어디에 있나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 23,
+      "type": "Wireshark",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "출발지와 목적지는 어떻게 구분하나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 24,
+      "type": "Wireshark",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "이 패킷의 프로토콜은 무엇인가요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 25,
+      "type": "Wireshark",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "정보 열에서 먼저 볼 내용은 무엇인가요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 26,
+      "type": "Wireshark",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "필터를 적용하면 무엇이 달라지나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 27,
+      "type": "Wireshark",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "화면 캡처를 증거로 남겨도 될까요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 28,
+      "type": "Wireshark",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "내가 찾은 패킷을 다시 확인하는 방법은 무엇인가요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 29,
+      "type": "Wireshark",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "Wireshark 결과를 한 문장으로 설명해 주세요."
+    },
+    {
+      "student_code": "30103",
+      "question_no": 30,
+      "type": "Wireshark",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "내가 본 패킷이 주행 데이터와 연결되나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 31,
+      "type": "TCP 연결",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "SYN은 어떤 시작 신호인가요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 32,
+      "type": "TCP 연결",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "SYN/ACK는 왜 돌아오나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 33,
+      "type": "TCP 연결",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "ACK는 무슨 뜻인가요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 34,
+      "type": "TCP 연결",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "세 패킷의 순서를 찾아 주세요."
+    },
+    {
+      "student_code": "30103",
+      "question_no": 35,
+      "type": "TCP 연결",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "SYN과 SYN/ACK를 화면에서 어떻게 구분하나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 36,
+      "type": "TCP 연결",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "TCP 연결이 끝나지 않으면 무엇을 확인하나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 37,
+      "type": "TCP 연결",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "출발지 포트와 목적지 포트는 무엇인가요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 38,
+      "type": "TCP 연결",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "TCP 연결을 악수에 비유해도 되나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 39,
+      "type": "TCP 연결",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "내가 찾은 TCP 흐름이 맞는지 확인해 주세요."
+    },
+    {
+      "student_code": "30103",
+      "question_no": 40,
+      "type": "TCP 연결",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "TCP 흐름을 친구에게 쉽게 설명해 주세요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 41,
+      "type": "필터",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "tcp.port == 8001 필터는 무엇을 찾나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 42,
+      "type": "필터",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "ip.addr 필터는 언제 사용하나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 43,
+      "type": "필터",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "필터를 지우면 어떤 패킷이 다시 보이나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 44,
+      "type": "필터",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "필터 결과가 0개인 이유는 무엇인가요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 45,
+      "type": "필터",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "포트 번호를 바꾸면 무엇이 달라지나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 46,
+      "type": "필터",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "두 조건을 함께 쓰려면 어떻게 하나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 47,
+      "type": "필터",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "필터를 적용하기 전에 무엇을 예측하나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 48,
+      "type": "필터",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "필터 결과 중 한 행을 고르는 기준은 무엇인가요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 49,
+      "type": "필터",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "내 필터가 맞는지 확인할 방법은 무엇인가요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 50,
+      "type": "필터",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "필터와 프레임 번호를 함께 기록해 주세요."
+    },
+    {
+      "student_code": "30103",
+      "question_no": 51,
+      "type": "증거 기록",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "증거로 남길 프레임은 몇 번인가요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 52,
+      "type": "증거 기록",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "이 화면에서 사실만 골라 주세요."
+    },
+    {
+      "student_code": "30103",
+      "question_no": 53,
+      "type": "증거 기록",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "내 판단을 뒷받침하는 값은 무엇인가요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 54,
+      "type": "증거 기록",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "필터 문자열을 어디에 적나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 55,
+      "type": "증거 기록",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "패킷 번호와 시간은 어떻게 연결하나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 56,
+      "type": "증거 기록",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "처음 판단과 지금 판단이 어떻게 달라졌나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 57,
+      "type": "증거 기록",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "증거가 부족하면 무엇을 더 캡처하나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 58,
+      "type": "증거 기록",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "팀원에게 보여 줄 핵심 화면은 무엇인가요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 59,
+      "type": "증거 기록",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "한 문장 판단을 만들어 주세요."
+    },
+    {
+      "student_code": "30103",
+      "question_no": 60,
+      "type": "증거 기록",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "저장하기 전에 빠진 기록이 있는지 점검해 주세요."
+    },
+    {
+      "student_code": "30103",
+      "question_no": 61,
+      "type": "챗봇 대화",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "정답 말고 다음에 볼 곳만 알려 주세요."
+    },
+    {
+      "student_code": "30103",
+      "question_no": 62,
+      "type": "챗봇 대화",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "이 내용을 초등학생도 알 수 있게 설명해 주세요."
+    },
+    {
+      "student_code": "30103",
+      "question_no": 63,
+      "type": "챗봇 대화",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "제가 직접 확인할 질문을 하나 내 주세요."
+    },
+    {
+      "student_code": "30103",
+      "question_no": 64,
+      "type": "챗봇 대화",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "내 말에서 잘한 점을 찾아 주세요."
+    },
+    {
+      "student_code": "30103",
+      "question_no": 65,
+      "type": "챗봇 대화",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "내 생각과 증거가 맞는지 비교해 주세요."
+    },
+    {
+      "student_code": "30103",
+      "question_no": 66,
+      "type": "챗봇 대화",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "힌트를 한 단계만 주세요."
+    },
+    {
+      "student_code": "30103",
+      "question_no": 67,
+      "type": "챗봇 대화",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "다른 예시로 다시 설명해 주세요."
+    },
+    {
+      "student_code": "30103",
+      "question_no": 68,
+      "type": "챗봇 대화",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "제가 틀렸다면 왜 그런지 쉽게 알려 주세요."
+    },
+    {
+      "student_code": "30103",
+      "question_no": 69,
+      "type": "챗봇 대화",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "다음 차시에 기억할 내용을 한 줄로 정리해 주세요."
+    },
+    {
+      "student_code": "30103",
+      "question_no": 70,
+      "type": "챗봇 대화",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "친구에게 물어볼 질문으로 바꿔 주세요."
+    },
+    {
+      "student_code": "30103",
+      "question_no": 71,
+      "type": "판단",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "처음 생각은 무엇이었나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 72,
+      "type": "판단",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "관찰 결과를 근거로 결론을 써도 될까요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 73,
+      "type": "판단",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "사실과 추측을 나눠 주세요."
+    },
+    {
+      "student_code": "30103",
+      "question_no": 74,
+      "type": "판단",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "어떤 증거가 가장 중요했나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 75,
+      "type": "판단",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "내 판단에서 빠진 부분은 무엇인가요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 76,
+      "type": "판단",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "반대되는 증거도 있나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 77,
+      "type": "판단",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "판단을 바꾸어야 할까요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 78,
+      "type": "판단",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "결론을 짧게 줄여 주세요."
+    },
+    {
+      "student_code": "30103",
+      "question_no": 79,
+      "type": "판단",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "선생님께 설명할 때 어떤 순서가 좋나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 80,
+      "type": "판단",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "최종 판단을 저장하기 전에 확인해 주세요."
+    },
+    {
+      "student_code": "30103",
+      "question_no": 81,
+      "type": "수정·재검증",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "코드를 바꾸면 어떤 결과를 예상하나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 82,
+      "type": "수정·재검증",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "필터를 바꾼 뒤 무엇을 비교하나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 83,
+      "type": "수정·재검증",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "같은 실험을 다시 하려면 무엇을 초기화하나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 84,
+      "type": "수정·재검증",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "결과가 달라진 이유를 찾을 수 있나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 85,
+      "type": "수정·재검증",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "재검증할 때 같은 조건을 써야 하나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 86,
+      "type": "수정·재검증",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "새 패킷이 생겼는지 어떻게 확인하나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 87,
+      "type": "수정·재검증",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "수정 전과 후를 표로 비교해 주세요."
+    },
+    {
+      "student_code": "30103",
+      "question_no": 88,
+      "type": "수정·재검증",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "오류가 다시 나오면 첫 번째로 무엇을 확인하나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 89,
+      "type": "수정·재검증",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "내 수정이 문제를 해결했는지 판단해 주세요."
+    },
+    {
+      "student_code": "30103",
+      "question_no": 90,
+      "type": "수정·재검증",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "다음 실험에서 바꿀 한 가지를 정해 주세요."
+    },
+    {
+      "student_code": "30103",
+      "question_no": 91,
+      "type": "팀 활동",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "우리 팀의 역할은 무엇인가요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 92,
+      "type": "팀 활동",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "팀원에게 어떤 증거를 부탁할까요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 93,
+      "type": "팀 활동",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "두 팀의 결과를 공정하게 비교하려면 무엇을 보나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 94,
+      "type": "팀 활동",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "내가 찾은 내용을 팀 채팅에 어떻게 공유하나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 95,
+      "type": "팀 활동",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "친구의 판단과 내 판단이 다르면 어떻게 하나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 96,
+      "type": "팀 활동",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "돌발 미션을 해결하려면 누구와 먼저 이야기하나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 97,
+      "type": "팀 활동",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "팀원에게 TCP 흐름을 설명해 볼까요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 98,
+      "type": "팀 활동",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "우리 팀 자동차 게이지를 올리려면 무엇을 완료해야 하나요?"
+    },
+    {
+      "student_code": "30103",
+      "question_no": 99,
+      "type": "팀 활동",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "팀 결과를 한 문장으로 발표해 주세요."
+    },
+    {
+      "student_code": "30103",
+      "question_no": 100,
+      "type": "팀 활동",
+      "persona": "숫자와 표를 잘 찾는 학생",
+      "question": "다음 역할을 누구에게 맡기면 좋을까요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 1,
+      "type": "기초 관찰",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "화면에서 가장 먼저 볼 곳은 어디인가요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 2,
+      "type": "기초 관찰",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "이 표에서 눈에 띄는 값은 무엇인가요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 3,
+      "type": "기초 관찰",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "지금 본 것을 한 문장으로 말하면 무엇인가요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 4,
+      "type": "기초 관찰",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "이 값이 바뀐 행을 찾을 수 있나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 5,
+      "type": "기초 관찰",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "관찰한 사실과 내 생각을 어떻게 나누나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 6,
+      "type": "기초 관찰",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "처음 시작할 때 무엇을 기록해야 하나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 7,
+      "type": "기초 관찰",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "이 활동의 성공 조건은 무엇인가요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 8,
+      "type": "기초 관찰",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "모르는 단어를 쉬운 말로 바꿔 줄 수 있나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 9,
+      "type": "기초 관찰",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "친구에게 이 화면을 어떻게 설명하면 좋나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 10,
+      "type": "기초 관찰",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "다음에 확인할 한 가지를 골라 주세요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 11,
+      "type": "주행 데이터",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "속도가 가장 높은 행은 몇 번인가요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 12,
+      "type": "주행 데이터",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "속도가 0인 행에서는 차가 어떻게 움직였나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 13,
+      "type": "주행 데이터",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "조향 값이 양수인 행을 찾아 주세요."
+    },
+    {
+      "student_code": "30104",
+      "question_no": 14,
+      "type": "주행 데이터",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "조향 값이 음수인 행을 찾아 주세요."
+    },
+    {
+      "student_code": "30104",
+      "question_no": 15,
+      "type": "주행 데이터",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "앞 행과 뒤 행의 속도를 비교해 주세요."
+    },
+    {
+      "student_code": "30104",
+      "question_no": 16,
+      "type": "주행 데이터",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "속도와 조향이 동시에 바뀐 행이 있나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 17,
+      "type": "주행 데이터",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "시간 순서대로 차량 움직임을 말해 주세요."
+    },
+    {
+      "student_code": "30104",
+      "question_no": 18,
+      "type": "주행 데이터",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "이 데이터로 예측할 수 있는 차량 상태는 무엇인가요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 19,
+      "type": "주행 데이터",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "제가 찾은 행 번호가 맞는지 확인해 주세요."
+    },
+    {
+      "student_code": "30104",
+      "question_no": 20,
+      "type": "주행 데이터",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "주행 데이터와 패킷을 어떻게 연결하나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 21,
+      "type": "Wireshark",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "캡처를 시작했는지 어떻게 확인하나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 22,
+      "type": "Wireshark",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "패킷 번호는 어디에 있나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 23,
+      "type": "Wireshark",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "출발지와 목적지는 어떻게 구분하나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 24,
+      "type": "Wireshark",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "이 패킷의 프로토콜은 무엇인가요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 25,
+      "type": "Wireshark",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "정보 열에서 먼저 볼 내용은 무엇인가요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 26,
+      "type": "Wireshark",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "필터를 적용하면 무엇이 달라지나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 27,
+      "type": "Wireshark",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "화면 캡처를 증거로 남겨도 될까요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 28,
+      "type": "Wireshark",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "내가 찾은 패킷을 다시 확인하는 방법은 무엇인가요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 29,
+      "type": "Wireshark",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "Wireshark 결과를 한 문장으로 설명해 주세요."
+    },
+    {
+      "student_code": "30104",
+      "question_no": 30,
+      "type": "Wireshark",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "내가 본 패킷이 주행 데이터와 연결되나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 31,
+      "type": "TCP 연결",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "SYN은 어떤 시작 신호인가요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 32,
+      "type": "TCP 연결",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "SYN/ACK는 왜 돌아오나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 33,
+      "type": "TCP 연결",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "ACK는 무슨 뜻인가요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 34,
+      "type": "TCP 연결",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "세 패킷의 순서를 찾아 주세요."
+    },
+    {
+      "student_code": "30104",
+      "question_no": 35,
+      "type": "TCP 연결",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "SYN과 SYN/ACK를 화면에서 어떻게 구분하나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 36,
+      "type": "TCP 연결",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "TCP 연결이 끝나지 않으면 무엇을 확인하나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 37,
+      "type": "TCP 연결",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "출발지 포트와 목적지 포트는 무엇인가요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 38,
+      "type": "TCP 연결",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "TCP 연결을 악수에 비유해도 되나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 39,
+      "type": "TCP 연결",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "내가 찾은 TCP 흐름이 맞는지 확인해 주세요."
+    },
+    {
+      "student_code": "30104",
+      "question_no": 40,
+      "type": "TCP 연결",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "TCP 흐름을 친구에게 쉽게 설명해 주세요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 41,
+      "type": "필터",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "tcp.port == 8001 필터는 무엇을 찾나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 42,
+      "type": "필터",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "ip.addr 필터는 언제 사용하나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 43,
+      "type": "필터",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "필터를 지우면 어떤 패킷이 다시 보이나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 44,
+      "type": "필터",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "필터 결과가 0개인 이유는 무엇인가요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 45,
+      "type": "필터",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "포트 번호를 바꾸면 무엇이 달라지나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 46,
+      "type": "필터",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "두 조건을 함께 쓰려면 어떻게 하나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 47,
+      "type": "필터",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "필터를 적용하기 전에 무엇을 예측하나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 48,
+      "type": "필터",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "필터 결과 중 한 행을 고르는 기준은 무엇인가요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 49,
+      "type": "필터",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "내 필터가 맞는지 확인할 방법은 무엇인가요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 50,
+      "type": "필터",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "필터와 프레임 번호를 함께 기록해 주세요."
+    },
+    {
+      "student_code": "30104",
+      "question_no": 51,
+      "type": "증거 기록",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "증거로 남길 프레임은 몇 번인가요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 52,
+      "type": "증거 기록",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "이 화면에서 사실만 골라 주세요."
+    },
+    {
+      "student_code": "30104",
+      "question_no": 53,
+      "type": "증거 기록",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "내 판단을 뒷받침하는 값은 무엇인가요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 54,
+      "type": "증거 기록",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "필터 문자열을 어디에 적나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 55,
+      "type": "증거 기록",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "패킷 번호와 시간은 어떻게 연결하나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 56,
+      "type": "증거 기록",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "처음 판단과 지금 판단이 어떻게 달라졌나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 57,
+      "type": "증거 기록",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "증거가 부족하면 무엇을 더 캡처하나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 58,
+      "type": "증거 기록",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "팀원에게 보여 줄 핵심 화면은 무엇인가요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 59,
+      "type": "증거 기록",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "한 문장 판단을 만들어 주세요."
+    },
+    {
+      "student_code": "30104",
+      "question_no": 60,
+      "type": "증거 기록",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "저장하기 전에 빠진 기록이 있는지 점검해 주세요."
+    },
+    {
+      "student_code": "30104",
+      "question_no": 61,
+      "type": "챗봇 대화",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "정답 말고 다음에 볼 곳만 알려 주세요."
+    },
+    {
+      "student_code": "30104",
+      "question_no": 62,
+      "type": "챗봇 대화",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "이 내용을 초등학생도 알 수 있게 설명해 주세요."
+    },
+    {
+      "student_code": "30104",
+      "question_no": 63,
+      "type": "챗봇 대화",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "제가 직접 확인할 질문을 하나 내 주세요."
+    },
+    {
+      "student_code": "30104",
+      "question_no": 64,
+      "type": "챗봇 대화",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "내 말에서 잘한 점을 찾아 주세요."
+    },
+    {
+      "student_code": "30104",
+      "question_no": 65,
+      "type": "챗봇 대화",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "내 생각과 증거가 맞는지 비교해 주세요."
+    },
+    {
+      "student_code": "30104",
+      "question_no": 66,
+      "type": "챗봇 대화",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "힌트를 한 단계만 주세요."
+    },
+    {
+      "student_code": "30104",
+      "question_no": 67,
+      "type": "챗봇 대화",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "다른 예시로 다시 설명해 주세요."
+    },
+    {
+      "student_code": "30104",
+      "question_no": 68,
+      "type": "챗봇 대화",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "제가 틀렸다면 왜 그런지 쉽게 알려 주세요."
+    },
+    {
+      "student_code": "30104",
+      "question_no": 69,
+      "type": "챗봇 대화",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "다음 차시에 기억할 내용을 한 줄로 정리해 주세요."
+    },
+    {
+      "student_code": "30104",
+      "question_no": 70,
+      "type": "챗봇 대화",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "친구에게 물어볼 질문으로 바꿔 주세요."
+    },
+    {
+      "student_code": "30104",
+      "question_no": 71,
+      "type": "판단",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "처음 생각은 무엇이었나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 72,
+      "type": "판단",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "관찰 결과를 근거로 결론을 써도 될까요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 73,
+      "type": "판단",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "사실과 추측을 나눠 주세요."
+    },
+    {
+      "student_code": "30104",
+      "question_no": 74,
+      "type": "판단",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "어떤 증거가 가장 중요했나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 75,
+      "type": "판단",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "내 판단에서 빠진 부분은 무엇인가요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 76,
+      "type": "판단",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "반대되는 증거도 있나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 77,
+      "type": "판단",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "판단을 바꾸어야 할까요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 78,
+      "type": "판단",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "결론을 짧게 줄여 주세요."
+    },
+    {
+      "student_code": "30104",
+      "question_no": 79,
+      "type": "판단",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "선생님께 설명할 때 어떤 순서가 좋나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 80,
+      "type": "판단",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "최종 판단을 저장하기 전에 확인해 주세요."
+    },
+    {
+      "student_code": "30104",
+      "question_no": 81,
+      "type": "수정·재검증",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "코드를 바꾸면 어떤 결과를 예상하나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 82,
+      "type": "수정·재검증",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "필터를 바꾼 뒤 무엇을 비교하나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 83,
+      "type": "수정·재검증",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "같은 실험을 다시 하려면 무엇을 초기화하나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 84,
+      "type": "수정·재검증",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "결과가 달라진 이유를 찾을 수 있나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 85,
+      "type": "수정·재검증",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "재검증할 때 같은 조건을 써야 하나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 86,
+      "type": "수정·재검증",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "새 패킷이 생겼는지 어떻게 확인하나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 87,
+      "type": "수정·재검증",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "수정 전과 후를 표로 비교해 주세요."
+    },
+    {
+      "student_code": "30104",
+      "question_no": 88,
+      "type": "수정·재검증",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "오류가 다시 나오면 첫 번째로 무엇을 확인하나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 89,
+      "type": "수정·재검증",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "내 수정이 문제를 해결했는지 판단해 주세요."
+    },
+    {
+      "student_code": "30104",
+      "question_no": 90,
+      "type": "수정·재검증",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "다음 실험에서 바꿀 한 가지를 정해 주세요."
+    },
+    {
+      "student_code": "30104",
+      "question_no": 91,
+      "type": "팀 활동",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "우리 팀의 역할은 무엇인가요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 92,
+      "type": "팀 활동",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "팀원에게 어떤 증거를 부탁할까요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 93,
+      "type": "팀 활동",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "두 팀의 결과를 공정하게 비교하려면 무엇을 보나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 94,
+      "type": "팀 활동",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "내가 찾은 내용을 팀 채팅에 어떻게 공유하나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 95,
+      "type": "팀 활동",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "친구의 판단과 내 판단이 다르면 어떻게 하나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 96,
+      "type": "팀 활동",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "돌발 미션을 해결하려면 누구와 먼저 이야기하나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 97,
+      "type": "팀 활동",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "팀원에게 TCP 흐름을 설명해 볼까요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 98,
+      "type": "팀 활동",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "우리 팀 자동차 게이지를 올리려면 무엇을 완료해야 하나요?"
+    },
+    {
+      "student_code": "30104",
+      "question_no": 99,
+      "type": "팀 활동",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "팀 결과를 한 문장으로 발표해 주세요."
+    },
+    {
+      "student_code": "30104",
+      "question_no": 100,
+      "type": "팀 활동",
+      "persona": "용어를 쉽게 풀어 들어야 하는 학생",
+      "question": "다음 역할을 누구에게 맡기면 좋을까요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 1,
+      "type": "기초 관찰",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "화면에서 가장 먼저 볼 곳은 어디인가요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 2,
+      "type": "기초 관찰",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "이 표에서 눈에 띄는 값은 무엇인가요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 3,
+      "type": "기초 관찰",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "지금 본 것을 한 문장으로 말하면 무엇인가요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 4,
+      "type": "기초 관찰",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "이 값이 바뀐 행을 찾을 수 있나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 5,
+      "type": "기초 관찰",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "관찰한 사실과 내 생각을 어떻게 나누나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 6,
+      "type": "기초 관찰",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "처음 시작할 때 무엇을 기록해야 하나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 7,
+      "type": "기초 관찰",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "이 활동의 성공 조건은 무엇인가요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 8,
+      "type": "기초 관찰",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "모르는 단어를 쉬운 말로 바꿔 줄 수 있나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 9,
+      "type": "기초 관찰",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "친구에게 이 화면을 어떻게 설명하면 좋나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 10,
+      "type": "기초 관찰",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "다음에 확인할 한 가지를 골라 주세요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 11,
+      "type": "주행 데이터",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "속도가 가장 높은 행은 몇 번인가요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 12,
+      "type": "주행 데이터",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "속도가 0인 행에서는 차가 어떻게 움직였나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 13,
+      "type": "주행 데이터",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "조향 값이 양수인 행을 찾아 주세요."
+    },
+    {
+      "student_code": "30105",
+      "question_no": 14,
+      "type": "주행 데이터",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "조향 값이 음수인 행을 찾아 주세요."
+    },
+    {
+      "student_code": "30105",
+      "question_no": 15,
+      "type": "주행 데이터",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "앞 행과 뒤 행의 속도를 비교해 주세요."
+    },
+    {
+      "student_code": "30105",
+      "question_no": 16,
+      "type": "주행 데이터",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "속도와 조향이 동시에 바뀐 행이 있나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 17,
+      "type": "주행 데이터",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "시간 순서대로 차량 움직임을 말해 주세요."
+    },
+    {
+      "student_code": "30105",
+      "question_no": 18,
+      "type": "주행 데이터",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "이 데이터로 예측할 수 있는 차량 상태는 무엇인가요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 19,
+      "type": "주행 데이터",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "제가 찾은 행 번호가 맞는지 확인해 주세요."
+    },
+    {
+      "student_code": "30105",
+      "question_no": 20,
+      "type": "주행 데이터",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "주행 데이터와 패킷을 어떻게 연결하나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 21,
+      "type": "Wireshark",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "캡처를 시작했는지 어떻게 확인하나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 22,
+      "type": "Wireshark",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "패킷 번호는 어디에 있나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 23,
+      "type": "Wireshark",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "출발지와 목적지는 어떻게 구분하나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 24,
+      "type": "Wireshark",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "이 패킷의 프로토콜은 무엇인가요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 25,
+      "type": "Wireshark",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "정보 열에서 먼저 볼 내용은 무엇인가요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 26,
+      "type": "Wireshark",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "필터를 적용하면 무엇이 달라지나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 27,
+      "type": "Wireshark",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "화면 캡처를 증거로 남겨도 될까요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 28,
+      "type": "Wireshark",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "내가 찾은 패킷을 다시 확인하는 방법은 무엇인가요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 29,
+      "type": "Wireshark",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "Wireshark 결과를 한 문장으로 설명해 주세요."
+    },
+    {
+      "student_code": "30105",
+      "question_no": 30,
+      "type": "Wireshark",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "내가 본 패킷이 주행 데이터와 연결되나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 31,
+      "type": "TCP 연결",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "SYN은 어떤 시작 신호인가요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 32,
+      "type": "TCP 연결",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "SYN/ACK는 왜 돌아오나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 33,
+      "type": "TCP 연결",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "ACK는 무슨 뜻인가요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 34,
+      "type": "TCP 연결",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "세 패킷의 순서를 찾아 주세요."
+    },
+    {
+      "student_code": "30105",
+      "question_no": 35,
+      "type": "TCP 연결",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "SYN과 SYN/ACK를 화면에서 어떻게 구분하나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 36,
+      "type": "TCP 연결",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "TCP 연결이 끝나지 않으면 무엇을 확인하나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 37,
+      "type": "TCP 연결",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "출발지 포트와 목적지 포트는 무엇인가요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 38,
+      "type": "TCP 연결",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "TCP 연결을 악수에 비유해도 되나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 39,
+      "type": "TCP 연결",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "내가 찾은 TCP 흐름이 맞는지 확인해 주세요."
+    },
+    {
+      "student_code": "30105",
+      "question_no": 40,
+      "type": "TCP 연결",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "TCP 흐름을 친구에게 쉽게 설명해 주세요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 41,
+      "type": "필터",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "tcp.port == 8001 필터는 무엇을 찾나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 42,
+      "type": "필터",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "ip.addr 필터는 언제 사용하나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 43,
+      "type": "필터",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "필터를 지우면 어떤 패킷이 다시 보이나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 44,
+      "type": "필터",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "필터 결과가 0개인 이유는 무엇인가요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 45,
+      "type": "필터",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "포트 번호를 바꾸면 무엇이 달라지나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 46,
+      "type": "필터",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "두 조건을 함께 쓰려면 어떻게 하나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 47,
+      "type": "필터",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "필터를 적용하기 전에 무엇을 예측하나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 48,
+      "type": "필터",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "필터 결과 중 한 행을 고르는 기준은 무엇인가요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 49,
+      "type": "필터",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "내 필터가 맞는지 확인할 방법은 무엇인가요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 50,
+      "type": "필터",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "필터와 프레임 번호를 함께 기록해 주세요."
+    },
+    {
+      "student_code": "30105",
+      "question_no": 51,
+      "type": "증거 기록",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "증거로 남길 프레임은 몇 번인가요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 52,
+      "type": "증거 기록",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "이 화면에서 사실만 골라 주세요."
+    },
+    {
+      "student_code": "30105",
+      "question_no": 53,
+      "type": "증거 기록",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "내 판단을 뒷받침하는 값은 무엇인가요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 54,
+      "type": "증거 기록",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "필터 문자열을 어디에 적나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 55,
+      "type": "증거 기록",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "패킷 번호와 시간은 어떻게 연결하나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 56,
+      "type": "증거 기록",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "처음 판단과 지금 판단이 어떻게 달라졌나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 57,
+      "type": "증거 기록",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "증거가 부족하면 무엇을 더 캡처하나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 58,
+      "type": "증거 기록",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "팀원에게 보여 줄 핵심 화면은 무엇인가요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 59,
+      "type": "증거 기록",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "한 문장 판단을 만들어 주세요."
+    },
+    {
+      "student_code": "30105",
+      "question_no": 60,
+      "type": "증거 기록",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "저장하기 전에 빠진 기록이 있는지 점검해 주세요."
+    },
+    {
+      "student_code": "30105",
+      "question_no": 61,
+      "type": "챗봇 대화",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "정답 말고 다음에 볼 곳만 알려 주세요."
+    },
+    {
+      "student_code": "30105",
+      "question_no": 62,
+      "type": "챗봇 대화",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "이 내용을 초등학생도 알 수 있게 설명해 주세요."
+    },
+    {
+      "student_code": "30105",
+      "question_no": 63,
+      "type": "챗봇 대화",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "제가 직접 확인할 질문을 하나 내 주세요."
+    },
+    {
+      "student_code": "30105",
+      "question_no": 64,
+      "type": "챗봇 대화",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "내 말에서 잘한 점을 찾아 주세요."
+    },
+    {
+      "student_code": "30105",
+      "question_no": 65,
+      "type": "챗봇 대화",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "내 생각과 증거가 맞는지 비교해 주세요."
+    },
+    {
+      "student_code": "30105",
+      "question_no": 66,
+      "type": "챗봇 대화",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "힌트를 한 단계만 주세요."
+    },
+    {
+      "student_code": "30105",
+      "question_no": 67,
+      "type": "챗봇 대화",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "다른 예시로 다시 설명해 주세요."
+    },
+    {
+      "student_code": "30105",
+      "question_no": 68,
+      "type": "챗봇 대화",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "제가 틀렸다면 왜 그런지 쉽게 알려 주세요."
+    },
+    {
+      "student_code": "30105",
+      "question_no": 69,
+      "type": "챗봇 대화",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "다음 차시에 기억할 내용을 한 줄로 정리해 주세요."
+    },
+    {
+      "student_code": "30105",
+      "question_no": 70,
+      "type": "챗봇 대화",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "친구에게 물어볼 질문으로 바꿔 주세요."
+    },
+    {
+      "student_code": "30105",
+      "question_no": 71,
+      "type": "판단",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "처음 생각은 무엇이었나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 72,
+      "type": "판단",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "관찰 결과를 근거로 결론을 써도 될까요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 73,
+      "type": "판단",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "사실과 추측을 나눠 주세요."
+    },
+    {
+      "student_code": "30105",
+      "question_no": 74,
+      "type": "판단",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "어떤 증거가 가장 중요했나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 75,
+      "type": "판단",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "내 판단에서 빠진 부분은 무엇인가요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 76,
+      "type": "판단",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "반대되는 증거도 있나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 77,
+      "type": "판단",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "판단을 바꾸어야 할까요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 78,
+      "type": "판단",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "결론을 짧게 줄여 주세요."
+    },
+    {
+      "student_code": "30105",
+      "question_no": 79,
+      "type": "판단",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "선생님께 설명할 때 어떤 순서가 좋나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 80,
+      "type": "판단",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "최종 판단을 저장하기 전에 확인해 주세요."
+    },
+    {
+      "student_code": "30105",
+      "question_no": 81,
+      "type": "수정·재검증",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "코드를 바꾸면 어떤 결과를 예상하나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 82,
+      "type": "수정·재검증",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "필터를 바꾼 뒤 무엇을 비교하나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 83,
+      "type": "수정·재검증",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "같은 실험을 다시 하려면 무엇을 초기화하나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 84,
+      "type": "수정·재검증",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "결과가 달라진 이유를 찾을 수 있나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 85,
+      "type": "수정·재검증",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "재검증할 때 같은 조건을 써야 하나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 86,
+      "type": "수정·재검증",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "새 패킷이 생겼는지 어떻게 확인하나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 87,
+      "type": "수정·재검증",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "수정 전과 후를 표로 비교해 주세요."
+    },
+    {
+      "student_code": "30105",
+      "question_no": 88,
+      "type": "수정·재검증",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "오류가 다시 나오면 첫 번째로 무엇을 확인하나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 89,
+      "type": "수정·재검증",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "내 수정이 문제를 해결했는지 판단해 주세요."
+    },
+    {
+      "student_code": "30105",
+      "question_no": 90,
+      "type": "수정·재검증",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "다음 실험에서 바꿀 한 가지를 정해 주세요."
+    },
+    {
+      "student_code": "30105",
+      "question_no": 91,
+      "type": "팀 활동",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "우리 팀의 역할은 무엇인가요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 92,
+      "type": "팀 활동",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "팀원에게 어떤 증거를 부탁할까요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 93,
+      "type": "팀 활동",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "두 팀의 결과를 공정하게 비교하려면 무엇을 보나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 94,
+      "type": "팀 활동",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "내가 찾은 내용을 팀 채팅에 어떻게 공유하나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 95,
+      "type": "팀 활동",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "친구의 판단과 내 판단이 다르면 어떻게 하나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 96,
+      "type": "팀 활동",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "돌발 미션을 해결하려면 누구와 먼저 이야기하나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 97,
+      "type": "팀 활동",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "팀원에게 TCP 흐름을 설명해 볼까요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 98,
+      "type": "팀 활동",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "우리 팀 자동차 게이지를 올리려면 무엇을 완료해야 하나요?"
+    },
+    {
+      "student_code": "30105",
+      "question_no": 99,
+      "type": "팀 활동",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "팀 결과를 한 문장으로 발표해 주세요."
+    },
+    {
+      "student_code": "30105",
+      "question_no": 100,
+      "type": "팀 활동",
+      "persona": "실수가 있어도 다시 시도하는 학생",
+      "question": "다음 역할을 누구에게 맡기면 좋을까요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 1,
+      "type": "기초 관찰",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "화면에서 가장 먼저 볼 곳은 어디인가요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 2,
+      "type": "기초 관찰",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "이 표에서 눈에 띄는 값은 무엇인가요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 3,
+      "type": "기초 관찰",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "지금 본 것을 한 문장으로 말하면 무엇인가요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 4,
+      "type": "기초 관찰",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "이 값이 바뀐 행을 찾을 수 있나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 5,
+      "type": "기초 관찰",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "관찰한 사실과 내 생각을 어떻게 나누나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 6,
+      "type": "기초 관찰",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "처음 시작할 때 무엇을 기록해야 하나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 7,
+      "type": "기초 관찰",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "이 활동의 성공 조건은 무엇인가요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 8,
+      "type": "기초 관찰",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "모르는 단어를 쉬운 말로 바꿔 줄 수 있나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 9,
+      "type": "기초 관찰",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "친구에게 이 화면을 어떻게 설명하면 좋나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 10,
+      "type": "기초 관찰",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "다음에 확인할 한 가지를 골라 주세요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 11,
+      "type": "주행 데이터",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "속도가 가장 높은 행은 몇 번인가요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 12,
+      "type": "주행 데이터",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "속도가 0인 행에서는 차가 어떻게 움직였나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 13,
+      "type": "주행 데이터",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "조향 값이 양수인 행을 찾아 주세요."
+    },
+    {
+      "student_code": "30106",
+      "question_no": 14,
+      "type": "주행 데이터",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "조향 값이 음수인 행을 찾아 주세요."
+    },
+    {
+      "student_code": "30106",
+      "question_no": 15,
+      "type": "주행 데이터",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "앞 행과 뒤 행의 속도를 비교해 주세요."
+    },
+    {
+      "student_code": "30106",
+      "question_no": 16,
+      "type": "주행 데이터",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "속도와 조향이 동시에 바뀐 행이 있나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 17,
+      "type": "주행 데이터",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "시간 순서대로 차량 움직임을 말해 주세요."
+    },
+    {
+      "student_code": "30106",
+      "question_no": 18,
+      "type": "주행 데이터",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "이 데이터로 예측할 수 있는 차량 상태는 무엇인가요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 19,
+      "type": "주행 데이터",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "제가 찾은 행 번호가 맞는지 확인해 주세요."
+    },
+    {
+      "student_code": "30106",
+      "question_no": 20,
+      "type": "주행 데이터",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "주행 데이터와 패킷을 어떻게 연결하나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 21,
+      "type": "Wireshark",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "캡처를 시작했는지 어떻게 확인하나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 22,
+      "type": "Wireshark",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "패킷 번호는 어디에 있나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 23,
+      "type": "Wireshark",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "출발지와 목적지는 어떻게 구분하나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 24,
+      "type": "Wireshark",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "이 패킷의 프로토콜은 무엇인가요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 25,
+      "type": "Wireshark",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "정보 열에서 먼저 볼 내용은 무엇인가요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 26,
+      "type": "Wireshark",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "필터를 적용하면 무엇이 달라지나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 27,
+      "type": "Wireshark",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "화면 캡처를 증거로 남겨도 될까요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 28,
+      "type": "Wireshark",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "내가 찾은 패킷을 다시 확인하는 방법은 무엇인가요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 29,
+      "type": "Wireshark",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "Wireshark 결과를 한 문장으로 설명해 주세요."
+    },
+    {
+      "student_code": "30106",
+      "question_no": 30,
+      "type": "Wireshark",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "내가 본 패킷이 주행 데이터와 연결되나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 31,
+      "type": "TCP 연결",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "SYN은 어떤 시작 신호인가요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 32,
+      "type": "TCP 연결",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "SYN/ACK는 왜 돌아오나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 33,
+      "type": "TCP 연결",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "ACK는 무슨 뜻인가요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 34,
+      "type": "TCP 연결",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "세 패킷의 순서를 찾아 주세요."
+    },
+    {
+      "student_code": "30106",
+      "question_no": 35,
+      "type": "TCP 연결",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "SYN과 SYN/ACK를 화면에서 어떻게 구분하나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 36,
+      "type": "TCP 연결",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "TCP 연결이 끝나지 않으면 무엇을 확인하나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 37,
+      "type": "TCP 연결",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "출발지 포트와 목적지 포트는 무엇인가요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 38,
+      "type": "TCP 연결",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "TCP 연결을 악수에 비유해도 되나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 39,
+      "type": "TCP 연결",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "내가 찾은 TCP 흐름이 맞는지 확인해 주세요."
+    },
+    {
+      "student_code": "30106",
+      "question_no": 40,
+      "type": "TCP 연결",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "TCP 흐름을 친구에게 쉽게 설명해 주세요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 41,
+      "type": "필터",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "tcp.port == 8001 필터는 무엇을 찾나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 42,
+      "type": "필터",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "ip.addr 필터는 언제 사용하나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 43,
+      "type": "필터",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "필터를 지우면 어떤 패킷이 다시 보이나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 44,
+      "type": "필터",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "필터 결과가 0개인 이유는 무엇인가요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 45,
+      "type": "필터",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "포트 번호를 바꾸면 무엇이 달라지나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 46,
+      "type": "필터",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "두 조건을 함께 쓰려면 어떻게 하나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 47,
+      "type": "필터",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "필터를 적용하기 전에 무엇을 예측하나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 48,
+      "type": "필터",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "필터 결과 중 한 행을 고르는 기준은 무엇인가요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 49,
+      "type": "필터",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "내 필터가 맞는지 확인할 방법은 무엇인가요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 50,
+      "type": "필터",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "필터와 프레임 번호를 함께 기록해 주세요."
+    },
+    {
+      "student_code": "30106",
+      "question_no": 51,
+      "type": "증거 기록",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "증거로 남길 프레임은 몇 번인가요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 52,
+      "type": "증거 기록",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "이 화면에서 사실만 골라 주세요."
+    },
+    {
+      "student_code": "30106",
+      "question_no": 53,
+      "type": "증거 기록",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "내 판단을 뒷받침하는 값은 무엇인가요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 54,
+      "type": "증거 기록",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "필터 문자열을 어디에 적나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 55,
+      "type": "증거 기록",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "패킷 번호와 시간은 어떻게 연결하나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 56,
+      "type": "증거 기록",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "처음 판단과 지금 판단이 어떻게 달라졌나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 57,
+      "type": "증거 기록",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "증거가 부족하면 무엇을 더 캡처하나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 58,
+      "type": "증거 기록",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "팀원에게 보여 줄 핵심 화면은 무엇인가요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 59,
+      "type": "증거 기록",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "한 문장 판단을 만들어 주세요."
+    },
+    {
+      "student_code": "30106",
+      "question_no": 60,
+      "type": "증거 기록",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "저장하기 전에 빠진 기록이 있는지 점검해 주세요."
+    },
+    {
+      "student_code": "30106",
+      "question_no": 61,
+      "type": "챗봇 대화",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "정답 말고 다음에 볼 곳만 알려 주세요."
+    },
+    {
+      "student_code": "30106",
+      "question_no": 62,
+      "type": "챗봇 대화",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "이 내용을 초등학생도 알 수 있게 설명해 주세요."
+    },
+    {
+      "student_code": "30106",
+      "question_no": 63,
+      "type": "챗봇 대화",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "제가 직접 확인할 질문을 하나 내 주세요."
+    },
+    {
+      "student_code": "30106",
+      "question_no": 64,
+      "type": "챗봇 대화",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "내 말에서 잘한 점을 찾아 주세요."
+    },
+    {
+      "student_code": "30106",
+      "question_no": 65,
+      "type": "챗봇 대화",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "내 생각과 증거가 맞는지 비교해 주세요."
+    },
+    {
+      "student_code": "30106",
+      "question_no": 66,
+      "type": "챗봇 대화",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "힌트를 한 단계만 주세요."
+    },
+    {
+      "student_code": "30106",
+      "question_no": 67,
+      "type": "챗봇 대화",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "다른 예시로 다시 설명해 주세요."
+    },
+    {
+      "student_code": "30106",
+      "question_no": 68,
+      "type": "챗봇 대화",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "제가 틀렸다면 왜 그런지 쉽게 알려 주세요."
+    },
+    {
+      "student_code": "30106",
+      "question_no": 69,
+      "type": "챗봇 대화",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "다음 차시에 기억할 내용을 한 줄로 정리해 주세요."
+    },
+    {
+      "student_code": "30106",
+      "question_no": 70,
+      "type": "챗봇 대화",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "친구에게 물어볼 질문으로 바꿔 주세요."
+    },
+    {
+      "student_code": "30106",
+      "question_no": 71,
+      "type": "판단",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "처음 생각은 무엇이었나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 72,
+      "type": "판단",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "관찰 결과를 근거로 결론을 써도 될까요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 73,
+      "type": "판단",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "사실과 추측을 나눠 주세요."
+    },
+    {
+      "student_code": "30106",
+      "question_no": 74,
+      "type": "판단",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "어떤 증거가 가장 중요했나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 75,
+      "type": "판단",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "내 판단에서 빠진 부분은 무엇인가요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 76,
+      "type": "판단",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "반대되는 증거도 있나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 77,
+      "type": "판단",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "판단을 바꾸어야 할까요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 78,
+      "type": "판단",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "결론을 짧게 줄여 주세요."
+    },
+    {
+      "student_code": "30106",
+      "question_no": 79,
+      "type": "판단",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "선생님께 설명할 때 어떤 순서가 좋나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 80,
+      "type": "판단",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "최종 판단을 저장하기 전에 확인해 주세요."
+    },
+    {
+      "student_code": "30106",
+      "question_no": 81,
+      "type": "수정·재검증",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "코드를 바꾸면 어떤 결과를 예상하나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 82,
+      "type": "수정·재검증",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "필터를 바꾼 뒤 무엇을 비교하나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 83,
+      "type": "수정·재검증",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "같은 실험을 다시 하려면 무엇을 초기화하나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 84,
+      "type": "수정·재검증",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "결과가 달라진 이유를 찾을 수 있나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 85,
+      "type": "수정·재검증",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "재검증할 때 같은 조건을 써야 하나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 86,
+      "type": "수정·재검증",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "새 패킷이 생겼는지 어떻게 확인하나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 87,
+      "type": "수정·재검증",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "수정 전과 후를 표로 비교해 주세요."
+    },
+    {
+      "student_code": "30106",
+      "question_no": 88,
+      "type": "수정·재검증",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "오류가 다시 나오면 첫 번째로 무엇을 확인하나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 89,
+      "type": "수정·재검증",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "내 수정이 문제를 해결했는지 판단해 주세요."
+    },
+    {
+      "student_code": "30106",
+      "question_no": 90,
+      "type": "수정·재검증",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "다음 실험에서 바꿀 한 가지를 정해 주세요."
+    },
+    {
+      "student_code": "30106",
+      "question_no": 91,
+      "type": "팀 활동",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "우리 팀의 역할은 무엇인가요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 92,
+      "type": "팀 활동",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "팀원에게 어떤 증거를 부탁할까요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 93,
+      "type": "팀 활동",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "두 팀의 결과를 공정하게 비교하려면 무엇을 보나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 94,
+      "type": "팀 활동",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "내가 찾은 내용을 팀 채팅에 어떻게 공유하나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 95,
+      "type": "팀 활동",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "친구의 판단과 내 판단이 다르면 어떻게 하나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 96,
+      "type": "팀 활동",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "돌발 미션을 해결하려면 누구와 먼저 이야기하나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 97,
+      "type": "팀 활동",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "팀원에게 TCP 흐름을 설명해 볼까요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 98,
+      "type": "팀 활동",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "우리 팀 자동차 게이지를 올리려면 무엇을 완료해야 하나요?"
+    },
+    {
+      "student_code": "30106",
+      "question_no": 99,
+      "type": "팀 활동",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "팀 결과를 한 문장으로 발표해 주세요."
+    },
+    {
+      "student_code": "30106",
+      "question_no": 100,
+      "type": "팀 활동",
+      "persona": "친구에게 설명하며 배우는 학생",
+      "question": "다음 역할을 누구에게 맡기면 좋을까요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 1,
+      "type": "기초 관찰",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "화면에서 가장 먼저 볼 곳은 어디인가요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 2,
+      "type": "기초 관찰",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "이 표에서 눈에 띄는 값은 무엇인가요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 3,
+      "type": "기초 관찰",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "지금 본 것을 한 문장으로 말하면 무엇인가요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 4,
+      "type": "기초 관찰",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "이 값이 바뀐 행을 찾을 수 있나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 5,
+      "type": "기초 관찰",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "관찰한 사실과 내 생각을 어떻게 나누나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 6,
+      "type": "기초 관찰",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "처음 시작할 때 무엇을 기록해야 하나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 7,
+      "type": "기초 관찰",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "이 활동의 성공 조건은 무엇인가요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 8,
+      "type": "기초 관찰",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "모르는 단어를 쉬운 말로 바꿔 줄 수 있나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 9,
+      "type": "기초 관찰",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "친구에게 이 화면을 어떻게 설명하면 좋나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 10,
+      "type": "기초 관찰",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "다음에 확인할 한 가지를 골라 주세요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 11,
+      "type": "주행 데이터",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "속도가 가장 높은 행은 몇 번인가요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 12,
+      "type": "주행 데이터",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "속도가 0인 행에서는 차가 어떻게 움직였나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 13,
+      "type": "주행 데이터",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "조향 값이 양수인 행을 찾아 주세요."
+    },
+    {
+      "student_code": "30107",
+      "question_no": 14,
+      "type": "주행 데이터",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "조향 값이 음수인 행을 찾아 주세요."
+    },
+    {
+      "student_code": "30107",
+      "question_no": 15,
+      "type": "주행 데이터",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "앞 행과 뒤 행의 속도를 비교해 주세요."
+    },
+    {
+      "student_code": "30107",
+      "question_no": 16,
+      "type": "주행 데이터",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "속도와 조향이 동시에 바뀐 행이 있나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 17,
+      "type": "주행 데이터",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "시간 순서대로 차량 움직임을 말해 주세요."
+    },
+    {
+      "student_code": "30107",
+      "question_no": 18,
+      "type": "주행 데이터",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "이 데이터로 예측할 수 있는 차량 상태는 무엇인가요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 19,
+      "type": "주행 데이터",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "제가 찾은 행 번호가 맞는지 확인해 주세요."
+    },
+    {
+      "student_code": "30107",
+      "question_no": 20,
+      "type": "주행 데이터",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "주행 데이터와 패킷을 어떻게 연결하나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 21,
+      "type": "Wireshark",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "캡처를 시작했는지 어떻게 확인하나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 22,
+      "type": "Wireshark",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "패킷 번호는 어디에 있나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 23,
+      "type": "Wireshark",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "출발지와 목적지는 어떻게 구분하나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 24,
+      "type": "Wireshark",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "이 패킷의 프로토콜은 무엇인가요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 25,
+      "type": "Wireshark",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "정보 열에서 먼저 볼 내용은 무엇인가요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 26,
+      "type": "Wireshark",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "필터를 적용하면 무엇이 달라지나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 27,
+      "type": "Wireshark",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "화면 캡처를 증거로 남겨도 될까요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 28,
+      "type": "Wireshark",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "내가 찾은 패킷을 다시 확인하는 방법은 무엇인가요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 29,
+      "type": "Wireshark",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "Wireshark 결과를 한 문장으로 설명해 주세요."
+    },
+    {
+      "student_code": "30107",
+      "question_no": 30,
+      "type": "Wireshark",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "내가 본 패킷이 주행 데이터와 연결되나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 31,
+      "type": "TCP 연결",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "SYN은 어떤 시작 신호인가요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 32,
+      "type": "TCP 연결",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "SYN/ACK는 왜 돌아오나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 33,
+      "type": "TCP 연결",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "ACK는 무슨 뜻인가요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 34,
+      "type": "TCP 연결",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "세 패킷의 순서를 찾아 주세요."
+    },
+    {
+      "student_code": "30107",
+      "question_no": 35,
+      "type": "TCP 연결",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "SYN과 SYN/ACK를 화면에서 어떻게 구분하나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 36,
+      "type": "TCP 연결",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "TCP 연결이 끝나지 않으면 무엇을 확인하나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 37,
+      "type": "TCP 연결",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "출발지 포트와 목적지 포트는 무엇인가요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 38,
+      "type": "TCP 연결",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "TCP 연결을 악수에 비유해도 되나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 39,
+      "type": "TCP 연결",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "내가 찾은 TCP 흐름이 맞는지 확인해 주세요."
+    },
+    {
+      "student_code": "30107",
+      "question_no": 40,
+      "type": "TCP 연결",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "TCP 흐름을 친구에게 쉽게 설명해 주세요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 41,
+      "type": "필터",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "tcp.port == 8001 필터는 무엇을 찾나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 42,
+      "type": "필터",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "ip.addr 필터는 언제 사용하나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 43,
+      "type": "필터",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "필터를 지우면 어떤 패킷이 다시 보이나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 44,
+      "type": "필터",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "필터 결과가 0개인 이유는 무엇인가요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 45,
+      "type": "필터",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "포트 번호를 바꾸면 무엇이 달라지나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 46,
+      "type": "필터",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "두 조건을 함께 쓰려면 어떻게 하나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 47,
+      "type": "필터",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "필터를 적용하기 전에 무엇을 예측하나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 48,
+      "type": "필터",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "필터 결과 중 한 행을 고르는 기준은 무엇인가요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 49,
+      "type": "필터",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "내 필터가 맞는지 확인할 방법은 무엇인가요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 50,
+      "type": "필터",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "필터와 프레임 번호를 함께 기록해 주세요."
+    },
+    {
+      "student_code": "30107",
+      "question_no": 51,
+      "type": "증거 기록",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "증거로 남길 프레임은 몇 번인가요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 52,
+      "type": "증거 기록",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "이 화면에서 사실만 골라 주세요."
+    },
+    {
+      "student_code": "30107",
+      "question_no": 53,
+      "type": "증거 기록",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "내 판단을 뒷받침하는 값은 무엇인가요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 54,
+      "type": "증거 기록",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "필터 문자열을 어디에 적나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 55,
+      "type": "증거 기록",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "패킷 번호와 시간은 어떻게 연결하나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 56,
+      "type": "증거 기록",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "처음 판단과 지금 판단이 어떻게 달라졌나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 57,
+      "type": "증거 기록",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "증거가 부족하면 무엇을 더 캡처하나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 58,
+      "type": "증거 기록",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "팀원에게 보여 줄 핵심 화면은 무엇인가요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 59,
+      "type": "증거 기록",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "한 문장 판단을 만들어 주세요."
+    },
+    {
+      "student_code": "30107",
+      "question_no": 60,
+      "type": "증거 기록",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "저장하기 전에 빠진 기록이 있는지 점검해 주세요."
+    },
+    {
+      "student_code": "30107",
+      "question_no": 61,
+      "type": "챗봇 대화",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "정답 말고 다음에 볼 곳만 알려 주세요."
+    },
+    {
+      "student_code": "30107",
+      "question_no": 62,
+      "type": "챗봇 대화",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "이 내용을 초등학생도 알 수 있게 설명해 주세요."
+    },
+    {
+      "student_code": "30107",
+      "question_no": 63,
+      "type": "챗봇 대화",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "제가 직접 확인할 질문을 하나 내 주세요."
+    },
+    {
+      "student_code": "30107",
+      "question_no": 64,
+      "type": "챗봇 대화",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "내 말에서 잘한 점을 찾아 주세요."
+    },
+    {
+      "student_code": "30107",
+      "question_no": 65,
+      "type": "챗봇 대화",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "내 생각과 증거가 맞는지 비교해 주세요."
+    },
+    {
+      "student_code": "30107",
+      "question_no": 66,
+      "type": "챗봇 대화",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "힌트를 한 단계만 주세요."
+    },
+    {
+      "student_code": "30107",
+      "question_no": 67,
+      "type": "챗봇 대화",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "다른 예시로 다시 설명해 주세요."
+    },
+    {
+      "student_code": "30107",
+      "question_no": 68,
+      "type": "챗봇 대화",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "제가 틀렸다면 왜 그런지 쉽게 알려 주세요."
+    },
+    {
+      "student_code": "30107",
+      "question_no": 69,
+      "type": "챗봇 대화",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "다음 차시에 기억할 내용을 한 줄로 정리해 주세요."
+    },
+    {
+      "student_code": "30107",
+      "question_no": 70,
+      "type": "챗봇 대화",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "친구에게 물어볼 질문으로 바꿔 주세요."
+    },
+    {
+      "student_code": "30107",
+      "question_no": 71,
+      "type": "판단",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "처음 생각은 무엇이었나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 72,
+      "type": "판단",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "관찰 결과를 근거로 결론을 써도 될까요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 73,
+      "type": "판단",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "사실과 추측을 나눠 주세요."
+    },
+    {
+      "student_code": "30107",
+      "question_no": 74,
+      "type": "판단",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "어떤 증거가 가장 중요했나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 75,
+      "type": "판단",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "내 판단에서 빠진 부분은 무엇인가요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 76,
+      "type": "판단",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "반대되는 증거도 있나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 77,
+      "type": "판단",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "판단을 바꾸어야 할까요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 78,
+      "type": "판단",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "결론을 짧게 줄여 주세요."
+    },
+    {
+      "student_code": "30107",
+      "question_no": 79,
+      "type": "판단",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "선생님께 설명할 때 어떤 순서가 좋나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 80,
+      "type": "판단",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "최종 판단을 저장하기 전에 확인해 주세요."
+    },
+    {
+      "student_code": "30107",
+      "question_no": 81,
+      "type": "수정·재검증",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "코드를 바꾸면 어떤 결과를 예상하나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 82,
+      "type": "수정·재검증",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "필터를 바꾼 뒤 무엇을 비교하나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 83,
+      "type": "수정·재검증",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "같은 실험을 다시 하려면 무엇을 초기화하나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 84,
+      "type": "수정·재검증",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "결과가 달라진 이유를 찾을 수 있나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 85,
+      "type": "수정·재검증",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "재검증할 때 같은 조건을 써야 하나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 86,
+      "type": "수정·재검증",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "새 패킷이 생겼는지 어떻게 확인하나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 87,
+      "type": "수정·재검증",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "수정 전과 후를 표로 비교해 주세요."
+    },
+    {
+      "student_code": "30107",
+      "question_no": 88,
+      "type": "수정·재검증",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "오류가 다시 나오면 첫 번째로 무엇을 확인하나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 89,
+      "type": "수정·재검증",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "내 수정이 문제를 해결했는지 판단해 주세요."
+    },
+    {
+      "student_code": "30107",
+      "question_no": 90,
+      "type": "수정·재검증",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "다음 실험에서 바꿀 한 가지를 정해 주세요."
+    },
+    {
+      "student_code": "30107",
+      "question_no": 91,
+      "type": "팀 활동",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "우리 팀의 역할은 무엇인가요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 92,
+      "type": "팀 활동",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "팀원에게 어떤 증거를 부탁할까요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 93,
+      "type": "팀 활동",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "두 팀의 결과를 공정하게 비교하려면 무엇을 보나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 94,
+      "type": "팀 활동",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "내가 찾은 내용을 팀 채팅에 어떻게 공유하나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 95,
+      "type": "팀 활동",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "친구의 판단과 내 판단이 다르면 어떻게 하나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 96,
+      "type": "팀 활동",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "돌발 미션을 해결하려면 누구와 먼저 이야기하나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 97,
+      "type": "팀 활동",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "팀원에게 TCP 흐름을 설명해 볼까요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 98,
+      "type": "팀 활동",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "우리 팀 자동차 게이지를 올리려면 무엇을 완료해야 하나요?"
+    },
+    {
+      "student_code": "30107",
+      "question_no": 99,
+      "type": "팀 활동",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "팀 결과를 한 문장으로 발표해 주세요."
+    },
+    {
+      "student_code": "30107",
+      "question_no": 100,
+      "type": "팀 활동",
+      "persona": "궁금한 점을 많이 묻는 학생",
+      "question": "다음 역할을 누구에게 맡기면 좋을까요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 1,
+      "type": "기초 관찰",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "화면에서 가장 먼저 볼 곳은 어디인가요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 2,
+      "type": "기초 관찰",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "이 표에서 눈에 띄는 값은 무엇인가요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 3,
+      "type": "기초 관찰",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "지금 본 것을 한 문장으로 말하면 무엇인가요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 4,
+      "type": "기초 관찰",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "이 값이 바뀐 행을 찾을 수 있나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 5,
+      "type": "기초 관찰",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "관찰한 사실과 내 생각을 어떻게 나누나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 6,
+      "type": "기초 관찰",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "처음 시작할 때 무엇을 기록해야 하나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 7,
+      "type": "기초 관찰",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "이 활동의 성공 조건은 무엇인가요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 8,
+      "type": "기초 관찰",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "모르는 단어를 쉬운 말로 바꿔 줄 수 있나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 9,
+      "type": "기초 관찰",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "친구에게 이 화면을 어떻게 설명하면 좋나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 10,
+      "type": "기초 관찰",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "다음에 확인할 한 가지를 골라 주세요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 11,
+      "type": "주행 데이터",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "속도가 가장 높은 행은 몇 번인가요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 12,
+      "type": "주행 데이터",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "속도가 0인 행에서는 차가 어떻게 움직였나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 13,
+      "type": "주행 데이터",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "조향 값이 양수인 행을 찾아 주세요."
+    },
+    {
+      "student_code": "30108",
+      "question_no": 14,
+      "type": "주행 데이터",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "조향 값이 음수인 행을 찾아 주세요."
+    },
+    {
+      "student_code": "30108",
+      "question_no": 15,
+      "type": "주행 데이터",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "앞 행과 뒤 행의 속도를 비교해 주세요."
+    },
+    {
+      "student_code": "30108",
+      "question_no": 16,
+      "type": "주행 데이터",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "속도와 조향이 동시에 바뀐 행이 있나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 17,
+      "type": "주행 데이터",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "시간 순서대로 차량 움직임을 말해 주세요."
+    },
+    {
+      "student_code": "30108",
+      "question_no": 18,
+      "type": "주행 데이터",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "이 데이터로 예측할 수 있는 차량 상태는 무엇인가요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 19,
+      "type": "주행 데이터",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "제가 찾은 행 번호가 맞는지 확인해 주세요."
+    },
+    {
+      "student_code": "30108",
+      "question_no": 20,
+      "type": "주행 데이터",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "주행 데이터와 패킷을 어떻게 연결하나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 21,
+      "type": "Wireshark",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "캡처를 시작했는지 어떻게 확인하나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 22,
+      "type": "Wireshark",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "패킷 번호는 어디에 있나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 23,
+      "type": "Wireshark",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "출발지와 목적지는 어떻게 구분하나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 24,
+      "type": "Wireshark",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "이 패킷의 프로토콜은 무엇인가요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 25,
+      "type": "Wireshark",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "정보 열에서 먼저 볼 내용은 무엇인가요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 26,
+      "type": "Wireshark",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "필터를 적용하면 무엇이 달라지나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 27,
+      "type": "Wireshark",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "화면 캡처를 증거로 남겨도 될까요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 28,
+      "type": "Wireshark",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "내가 찾은 패킷을 다시 확인하는 방법은 무엇인가요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 29,
+      "type": "Wireshark",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "Wireshark 결과를 한 문장으로 설명해 주세요."
+    },
+    {
+      "student_code": "30108",
+      "question_no": 30,
+      "type": "Wireshark",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "내가 본 패킷이 주행 데이터와 연결되나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 31,
+      "type": "TCP 연결",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "SYN은 어떤 시작 신호인가요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 32,
+      "type": "TCP 연결",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "SYN/ACK는 왜 돌아오나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 33,
+      "type": "TCP 연결",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "ACK는 무슨 뜻인가요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 34,
+      "type": "TCP 연결",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "세 패킷의 순서를 찾아 주세요."
+    },
+    {
+      "student_code": "30108",
+      "question_no": 35,
+      "type": "TCP 연결",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "SYN과 SYN/ACK를 화면에서 어떻게 구분하나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 36,
+      "type": "TCP 연결",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "TCP 연결이 끝나지 않으면 무엇을 확인하나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 37,
+      "type": "TCP 연결",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "출발지 포트와 목적지 포트는 무엇인가요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 38,
+      "type": "TCP 연결",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "TCP 연결을 악수에 비유해도 되나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 39,
+      "type": "TCP 연결",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "내가 찾은 TCP 흐름이 맞는지 확인해 주세요."
+    },
+    {
+      "student_code": "30108",
+      "question_no": 40,
+      "type": "TCP 연결",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "TCP 흐름을 친구에게 쉽게 설명해 주세요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 41,
+      "type": "필터",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "tcp.port == 8001 필터는 무엇을 찾나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 42,
+      "type": "필터",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "ip.addr 필터는 언제 사용하나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 43,
+      "type": "필터",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "필터를 지우면 어떤 패킷이 다시 보이나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 44,
+      "type": "필터",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "필터 결과가 0개인 이유는 무엇인가요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 45,
+      "type": "필터",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "포트 번호를 바꾸면 무엇이 달라지나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 46,
+      "type": "필터",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "두 조건을 함께 쓰려면 어떻게 하나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 47,
+      "type": "필터",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "필터를 적용하기 전에 무엇을 예측하나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 48,
+      "type": "필터",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "필터 결과 중 한 행을 고르는 기준은 무엇인가요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 49,
+      "type": "필터",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "내 필터가 맞는지 확인할 방법은 무엇인가요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 50,
+      "type": "필터",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "필터와 프레임 번호를 함께 기록해 주세요."
+    },
+    {
+      "student_code": "30108",
+      "question_no": 51,
+      "type": "증거 기록",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "증거로 남길 프레임은 몇 번인가요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 52,
+      "type": "증거 기록",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "이 화면에서 사실만 골라 주세요."
+    },
+    {
+      "student_code": "30108",
+      "question_no": 53,
+      "type": "증거 기록",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "내 판단을 뒷받침하는 값은 무엇인가요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 54,
+      "type": "증거 기록",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "필터 문자열을 어디에 적나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 55,
+      "type": "증거 기록",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "패킷 번호와 시간은 어떻게 연결하나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 56,
+      "type": "증거 기록",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "처음 판단과 지금 판단이 어떻게 달라졌나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 57,
+      "type": "증거 기록",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "증거가 부족하면 무엇을 더 캡처하나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 58,
+      "type": "증거 기록",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "팀원에게 보여 줄 핵심 화면은 무엇인가요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 59,
+      "type": "증거 기록",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "한 문장 판단을 만들어 주세요."
+    },
+    {
+      "student_code": "30108",
+      "question_no": 60,
+      "type": "증거 기록",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "저장하기 전에 빠진 기록이 있는지 점검해 주세요."
+    },
+    {
+      "student_code": "30108",
+      "question_no": 61,
+      "type": "챗봇 대화",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "정답 말고 다음에 볼 곳만 알려 주세요."
+    },
+    {
+      "student_code": "30108",
+      "question_no": 62,
+      "type": "챗봇 대화",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "이 내용을 초등학생도 알 수 있게 설명해 주세요."
+    },
+    {
+      "student_code": "30108",
+      "question_no": 63,
+      "type": "챗봇 대화",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "제가 직접 확인할 질문을 하나 내 주세요."
+    },
+    {
+      "student_code": "30108",
+      "question_no": 64,
+      "type": "챗봇 대화",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "내 말에서 잘한 점을 찾아 주세요."
+    },
+    {
+      "student_code": "30108",
+      "question_no": 65,
+      "type": "챗봇 대화",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "내 생각과 증거가 맞는지 비교해 주세요."
+    },
+    {
+      "student_code": "30108",
+      "question_no": 66,
+      "type": "챗봇 대화",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "힌트를 한 단계만 주세요."
+    },
+    {
+      "student_code": "30108",
+      "question_no": 67,
+      "type": "챗봇 대화",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "다른 예시로 다시 설명해 주세요."
+    },
+    {
+      "student_code": "30108",
+      "question_no": 68,
+      "type": "챗봇 대화",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "제가 틀렸다면 왜 그런지 쉽게 알려 주세요."
+    },
+    {
+      "student_code": "30108",
+      "question_no": 69,
+      "type": "챗봇 대화",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "다음 차시에 기억할 내용을 한 줄로 정리해 주세요."
+    },
+    {
+      "student_code": "30108",
+      "question_no": 70,
+      "type": "챗봇 대화",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "친구에게 물어볼 질문으로 바꿔 주세요."
+    },
+    {
+      "student_code": "30108",
+      "question_no": 71,
+      "type": "판단",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "처음 생각은 무엇이었나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 72,
+      "type": "판단",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "관찰 결과를 근거로 결론을 써도 될까요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 73,
+      "type": "판단",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "사실과 추측을 나눠 주세요."
+    },
+    {
+      "student_code": "30108",
+      "question_no": 74,
+      "type": "판단",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "어떤 증거가 가장 중요했나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 75,
+      "type": "판단",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "내 판단에서 빠진 부분은 무엇인가요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 76,
+      "type": "판단",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "반대되는 증거도 있나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 77,
+      "type": "판단",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "판단을 바꾸어야 할까요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 78,
+      "type": "판단",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "결론을 짧게 줄여 주세요."
+    },
+    {
+      "student_code": "30108",
+      "question_no": 79,
+      "type": "판단",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "선생님께 설명할 때 어떤 순서가 좋나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 80,
+      "type": "판단",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "최종 판단을 저장하기 전에 확인해 주세요."
+    },
+    {
+      "student_code": "30108",
+      "question_no": 81,
+      "type": "수정·재검증",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "코드를 바꾸면 어떤 결과를 예상하나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 82,
+      "type": "수정·재검증",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "필터를 바꾼 뒤 무엇을 비교하나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 83,
+      "type": "수정·재검증",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "같은 실험을 다시 하려면 무엇을 초기화하나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 84,
+      "type": "수정·재검증",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "결과가 달라진 이유를 찾을 수 있나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 85,
+      "type": "수정·재검증",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "재검증할 때 같은 조건을 써야 하나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 86,
+      "type": "수정·재검증",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "새 패킷이 생겼는지 어떻게 확인하나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 87,
+      "type": "수정·재검증",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "수정 전과 후를 표로 비교해 주세요."
+    },
+    {
+      "student_code": "30108",
+      "question_no": 88,
+      "type": "수정·재검증",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "오류가 다시 나오면 첫 번째로 무엇을 확인하나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 89,
+      "type": "수정·재검증",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "내 수정이 문제를 해결했는지 판단해 주세요."
+    },
+    {
+      "student_code": "30108",
+      "question_no": 90,
+      "type": "수정·재검증",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "다음 실험에서 바꿀 한 가지를 정해 주세요."
+    },
+    {
+      "student_code": "30108",
+      "question_no": 91,
+      "type": "팀 활동",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "우리 팀의 역할은 무엇인가요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 92,
+      "type": "팀 활동",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "팀원에게 어떤 증거를 부탁할까요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 93,
+      "type": "팀 활동",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "두 팀의 결과를 공정하게 비교하려면 무엇을 보나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 94,
+      "type": "팀 활동",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "내가 찾은 내용을 팀 채팅에 어떻게 공유하나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 95,
+      "type": "팀 활동",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "친구의 판단과 내 판단이 다르면 어떻게 하나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 96,
+      "type": "팀 활동",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "돌발 미션을 해결하려면 누구와 먼저 이야기하나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 97,
+      "type": "팀 활동",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "팀원에게 TCP 흐름을 설명해 볼까요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 98,
+      "type": "팀 활동",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "우리 팀 자동차 게이지를 올리려면 무엇을 완료해야 하나요?"
+    },
+    {
+      "student_code": "30108",
+      "question_no": 99,
+      "type": "팀 활동",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "팀 결과를 한 문장으로 발표해 주세요."
+    },
+    {
+      "student_code": "30108",
+      "question_no": 100,
+      "type": "팀 활동",
+      "persona": "자신감이 낮아 확인이 필요한 학생",
+      "question": "다음 역할을 누구에게 맡기면 좋을까요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 1,
+      "type": "기초 관찰",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "화면에서 가장 먼저 볼 곳은 어디인가요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 2,
+      "type": "기초 관찰",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "이 표에서 눈에 띄는 값은 무엇인가요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 3,
+      "type": "기초 관찰",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "지금 본 것을 한 문장으로 말하면 무엇인가요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 4,
+      "type": "기초 관찰",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "이 값이 바뀐 행을 찾을 수 있나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 5,
+      "type": "기초 관찰",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "관찰한 사실과 내 생각을 어떻게 나누나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 6,
+      "type": "기초 관찰",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "처음 시작할 때 무엇을 기록해야 하나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 7,
+      "type": "기초 관찰",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "이 활동의 성공 조건은 무엇인가요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 8,
+      "type": "기초 관찰",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "모르는 단어를 쉬운 말로 바꿔 줄 수 있나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 9,
+      "type": "기초 관찰",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "친구에게 이 화면을 어떻게 설명하면 좋나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 10,
+      "type": "기초 관찰",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "다음에 확인할 한 가지를 골라 주세요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 11,
+      "type": "주행 데이터",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "속도가 가장 높은 행은 몇 번인가요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 12,
+      "type": "주행 데이터",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "속도가 0인 행에서는 차가 어떻게 움직였나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 13,
+      "type": "주행 데이터",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "조향 값이 양수인 행을 찾아 주세요."
+    },
+    {
+      "student_code": "30109",
+      "question_no": 14,
+      "type": "주행 데이터",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "조향 값이 음수인 행을 찾아 주세요."
+    },
+    {
+      "student_code": "30109",
+      "question_no": 15,
+      "type": "주행 데이터",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "앞 행과 뒤 행의 속도를 비교해 주세요."
+    },
+    {
+      "student_code": "30109",
+      "question_no": 16,
+      "type": "주행 데이터",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "속도와 조향이 동시에 바뀐 행이 있나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 17,
+      "type": "주행 데이터",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "시간 순서대로 차량 움직임을 말해 주세요."
+    },
+    {
+      "student_code": "30109",
+      "question_no": 18,
+      "type": "주행 데이터",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "이 데이터로 예측할 수 있는 차량 상태는 무엇인가요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 19,
+      "type": "주행 데이터",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "제가 찾은 행 번호가 맞는지 확인해 주세요."
+    },
+    {
+      "student_code": "30109",
+      "question_no": 20,
+      "type": "주행 데이터",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "주행 데이터와 패킷을 어떻게 연결하나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 21,
+      "type": "Wireshark",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "캡처를 시작했는지 어떻게 확인하나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 22,
+      "type": "Wireshark",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "패킷 번호는 어디에 있나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 23,
+      "type": "Wireshark",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "출발지와 목적지는 어떻게 구분하나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 24,
+      "type": "Wireshark",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "이 패킷의 프로토콜은 무엇인가요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 25,
+      "type": "Wireshark",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "정보 열에서 먼저 볼 내용은 무엇인가요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 26,
+      "type": "Wireshark",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "필터를 적용하면 무엇이 달라지나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 27,
+      "type": "Wireshark",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "화면 캡처를 증거로 남겨도 될까요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 28,
+      "type": "Wireshark",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "내가 찾은 패킷을 다시 확인하는 방법은 무엇인가요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 29,
+      "type": "Wireshark",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "Wireshark 결과를 한 문장으로 설명해 주세요."
+    },
+    {
+      "student_code": "30109",
+      "question_no": 30,
+      "type": "Wireshark",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "내가 본 패킷이 주행 데이터와 연결되나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 31,
+      "type": "TCP 연결",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "SYN은 어떤 시작 신호인가요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 32,
+      "type": "TCP 연결",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "SYN/ACK는 왜 돌아오나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 33,
+      "type": "TCP 연결",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "ACK는 무슨 뜻인가요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 34,
+      "type": "TCP 연결",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "세 패킷의 순서를 찾아 주세요."
+    },
+    {
+      "student_code": "30109",
+      "question_no": 35,
+      "type": "TCP 연결",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "SYN과 SYN/ACK를 화면에서 어떻게 구분하나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 36,
+      "type": "TCP 연결",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "TCP 연결이 끝나지 않으면 무엇을 확인하나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 37,
+      "type": "TCP 연결",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "출발지 포트와 목적지 포트는 무엇인가요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 38,
+      "type": "TCP 연결",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "TCP 연결을 악수에 비유해도 되나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 39,
+      "type": "TCP 연결",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "내가 찾은 TCP 흐름이 맞는지 확인해 주세요."
+    },
+    {
+      "student_code": "30109",
+      "question_no": 40,
+      "type": "TCP 연결",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "TCP 흐름을 친구에게 쉽게 설명해 주세요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 41,
+      "type": "필터",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "tcp.port == 8001 필터는 무엇을 찾나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 42,
+      "type": "필터",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "ip.addr 필터는 언제 사용하나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 43,
+      "type": "필터",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "필터를 지우면 어떤 패킷이 다시 보이나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 44,
+      "type": "필터",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "필터 결과가 0개인 이유는 무엇인가요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 45,
+      "type": "필터",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "포트 번호를 바꾸면 무엇이 달라지나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 46,
+      "type": "필터",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "두 조건을 함께 쓰려면 어떻게 하나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 47,
+      "type": "필터",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "필터를 적용하기 전에 무엇을 예측하나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 48,
+      "type": "필터",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "필터 결과 중 한 행을 고르는 기준은 무엇인가요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 49,
+      "type": "필터",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "내 필터가 맞는지 확인할 방법은 무엇인가요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 50,
+      "type": "필터",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "필터와 프레임 번호를 함께 기록해 주세요."
+    },
+    {
+      "student_code": "30109",
+      "question_no": 51,
+      "type": "증거 기록",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "증거로 남길 프레임은 몇 번인가요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 52,
+      "type": "증거 기록",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "이 화면에서 사실만 골라 주세요."
+    },
+    {
+      "student_code": "30109",
+      "question_no": 53,
+      "type": "증거 기록",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "내 판단을 뒷받침하는 값은 무엇인가요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 54,
+      "type": "증거 기록",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "필터 문자열을 어디에 적나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 55,
+      "type": "증거 기록",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "패킷 번호와 시간은 어떻게 연결하나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 56,
+      "type": "증거 기록",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "처음 판단과 지금 판단이 어떻게 달라졌나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 57,
+      "type": "증거 기록",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "증거가 부족하면 무엇을 더 캡처하나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 58,
+      "type": "증거 기록",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "팀원에게 보여 줄 핵심 화면은 무엇인가요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 59,
+      "type": "증거 기록",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "한 문장 판단을 만들어 주세요."
+    },
+    {
+      "student_code": "30109",
+      "question_no": 60,
+      "type": "증거 기록",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "저장하기 전에 빠진 기록이 있는지 점검해 주세요."
+    },
+    {
+      "student_code": "30109",
+      "question_no": 61,
+      "type": "챗봇 대화",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "정답 말고 다음에 볼 곳만 알려 주세요."
+    },
+    {
+      "student_code": "30109",
+      "question_no": 62,
+      "type": "챗봇 대화",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "이 내용을 초등학생도 알 수 있게 설명해 주세요."
+    },
+    {
+      "student_code": "30109",
+      "question_no": 63,
+      "type": "챗봇 대화",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "제가 직접 확인할 질문을 하나 내 주세요."
+    },
+    {
+      "student_code": "30109",
+      "question_no": 64,
+      "type": "챗봇 대화",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "내 말에서 잘한 점을 찾아 주세요."
+    },
+    {
+      "student_code": "30109",
+      "question_no": 65,
+      "type": "챗봇 대화",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "내 생각과 증거가 맞는지 비교해 주세요."
+    },
+    {
+      "student_code": "30109",
+      "question_no": 66,
+      "type": "챗봇 대화",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "힌트를 한 단계만 주세요."
+    },
+    {
+      "student_code": "30109",
+      "question_no": 67,
+      "type": "챗봇 대화",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "다른 예시로 다시 설명해 주세요."
+    },
+    {
+      "student_code": "30109",
+      "question_no": 68,
+      "type": "챗봇 대화",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "제가 틀렸다면 왜 그런지 쉽게 알려 주세요."
+    },
+    {
+      "student_code": "30109",
+      "question_no": 69,
+      "type": "챗봇 대화",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "다음 차시에 기억할 내용을 한 줄로 정리해 주세요."
+    },
+    {
+      "student_code": "30109",
+      "question_no": 70,
+      "type": "챗봇 대화",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "친구에게 물어볼 질문으로 바꿔 주세요."
+    },
+    {
+      "student_code": "30109",
+      "question_no": 71,
+      "type": "판단",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "처음 생각은 무엇이었나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 72,
+      "type": "판단",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "관찰 결과를 근거로 결론을 써도 될까요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 73,
+      "type": "판단",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "사실과 추측을 나눠 주세요."
+    },
+    {
+      "student_code": "30109",
+      "question_no": 74,
+      "type": "판단",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "어떤 증거가 가장 중요했나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 75,
+      "type": "판단",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "내 판단에서 빠진 부분은 무엇인가요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 76,
+      "type": "판단",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "반대되는 증거도 있나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 77,
+      "type": "판단",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "판단을 바꾸어야 할까요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 78,
+      "type": "판단",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "결론을 짧게 줄여 주세요."
+    },
+    {
+      "student_code": "30109",
+      "question_no": 79,
+      "type": "판단",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "선생님께 설명할 때 어떤 순서가 좋나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 80,
+      "type": "판단",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "최종 판단을 저장하기 전에 확인해 주세요."
+    },
+    {
+      "student_code": "30109",
+      "question_no": 81,
+      "type": "수정·재검증",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "코드를 바꾸면 어떤 결과를 예상하나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 82,
+      "type": "수정·재검증",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "필터를 바꾼 뒤 무엇을 비교하나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 83,
+      "type": "수정·재검증",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "같은 실험을 다시 하려면 무엇을 초기화하나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 84,
+      "type": "수정·재검증",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "결과가 달라진 이유를 찾을 수 있나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 85,
+      "type": "수정·재검증",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "재검증할 때 같은 조건을 써야 하나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 86,
+      "type": "수정·재검증",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "새 패킷이 생겼는지 어떻게 확인하나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 87,
+      "type": "수정·재검증",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "수정 전과 후를 표로 비교해 주세요."
+    },
+    {
+      "student_code": "30109",
+      "question_no": 88,
+      "type": "수정·재검증",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "오류가 다시 나오면 첫 번째로 무엇을 확인하나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 89,
+      "type": "수정·재검증",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "내 수정이 문제를 해결했는지 판단해 주세요."
+    },
+    {
+      "student_code": "30109",
+      "question_no": 90,
+      "type": "수정·재검증",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "다음 실험에서 바꿀 한 가지를 정해 주세요."
+    },
+    {
+      "student_code": "30109",
+      "question_no": 91,
+      "type": "팀 활동",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "우리 팀의 역할은 무엇인가요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 92,
+      "type": "팀 활동",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "팀원에게 어떤 증거를 부탁할까요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 93,
+      "type": "팀 활동",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "두 팀의 결과를 공정하게 비교하려면 무엇을 보나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 94,
+      "type": "팀 활동",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "내가 찾은 내용을 팀 채팅에 어떻게 공유하나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 95,
+      "type": "팀 활동",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "친구의 판단과 내 판단이 다르면 어떻게 하나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 96,
+      "type": "팀 활동",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "돌발 미션을 해결하려면 누구와 먼저 이야기하나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 97,
+      "type": "팀 활동",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "팀원에게 TCP 흐름을 설명해 볼까요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 98,
+      "type": "팀 활동",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "우리 팀 자동차 게이지를 올리려면 무엇을 완료해야 하나요?"
+    },
+    {
+      "student_code": "30109",
+      "question_no": 99,
+      "type": "팀 활동",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "팀 결과를 한 문장으로 발표해 주세요."
+    },
+    {
+      "student_code": "30109",
+      "question_no": 100,
+      "type": "팀 활동",
+      "persona": "빠르게 진행하고 다음 과제를 찾는 학생",
+      "question": "다음 역할을 누구에게 맡기면 좋을까요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 1,
+      "type": "기초 관찰",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "화면에서 가장 먼저 볼 곳은 어디인가요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 2,
+      "type": "기초 관찰",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "이 표에서 눈에 띄는 값은 무엇인가요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 3,
+      "type": "기초 관찰",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "지금 본 것을 한 문장으로 말하면 무엇인가요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 4,
+      "type": "기초 관찰",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "이 값이 바뀐 행을 찾을 수 있나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 5,
+      "type": "기초 관찰",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "관찰한 사실과 내 생각을 어떻게 나누나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 6,
+      "type": "기초 관찰",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "처음 시작할 때 무엇을 기록해야 하나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 7,
+      "type": "기초 관찰",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "이 활동의 성공 조건은 무엇인가요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 8,
+      "type": "기초 관찰",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "모르는 단어를 쉬운 말로 바꿔 줄 수 있나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 9,
+      "type": "기초 관찰",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "친구에게 이 화면을 어떻게 설명하면 좋나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 10,
+      "type": "기초 관찰",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "다음에 확인할 한 가지를 골라 주세요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 11,
+      "type": "주행 데이터",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "속도가 가장 높은 행은 몇 번인가요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 12,
+      "type": "주행 데이터",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "속도가 0인 행에서는 차가 어떻게 움직였나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 13,
+      "type": "주행 데이터",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "조향 값이 양수인 행을 찾아 주세요."
+    },
+    {
+      "student_code": "30110",
+      "question_no": 14,
+      "type": "주행 데이터",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "조향 값이 음수인 행을 찾아 주세요."
+    },
+    {
+      "student_code": "30110",
+      "question_no": 15,
+      "type": "주행 데이터",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "앞 행과 뒤 행의 속도를 비교해 주세요."
+    },
+    {
+      "student_code": "30110",
+      "question_no": 16,
+      "type": "주행 데이터",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "속도와 조향이 동시에 바뀐 행이 있나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 17,
+      "type": "주행 데이터",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "시간 순서대로 차량 움직임을 말해 주세요."
+    },
+    {
+      "student_code": "30110",
+      "question_no": 18,
+      "type": "주행 데이터",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "이 데이터로 예측할 수 있는 차량 상태는 무엇인가요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 19,
+      "type": "주행 데이터",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "제가 찾은 행 번호가 맞는지 확인해 주세요."
+    },
+    {
+      "student_code": "30110",
+      "question_no": 20,
+      "type": "주행 데이터",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "주행 데이터와 패킷을 어떻게 연결하나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 21,
+      "type": "Wireshark",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "캡처를 시작했는지 어떻게 확인하나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 22,
+      "type": "Wireshark",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "패킷 번호는 어디에 있나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 23,
+      "type": "Wireshark",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "출발지와 목적지는 어떻게 구분하나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 24,
+      "type": "Wireshark",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "이 패킷의 프로토콜은 무엇인가요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 25,
+      "type": "Wireshark",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "정보 열에서 먼저 볼 내용은 무엇인가요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 26,
+      "type": "Wireshark",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "필터를 적용하면 무엇이 달라지나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 27,
+      "type": "Wireshark",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "화면 캡처를 증거로 남겨도 될까요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 28,
+      "type": "Wireshark",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "내가 찾은 패킷을 다시 확인하는 방법은 무엇인가요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 29,
+      "type": "Wireshark",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "Wireshark 결과를 한 문장으로 설명해 주세요."
+    },
+    {
+      "student_code": "30110",
+      "question_no": 30,
+      "type": "Wireshark",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "내가 본 패킷이 주행 데이터와 연결되나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 31,
+      "type": "TCP 연결",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "SYN은 어떤 시작 신호인가요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 32,
+      "type": "TCP 연결",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "SYN/ACK는 왜 돌아오나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 33,
+      "type": "TCP 연결",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "ACK는 무슨 뜻인가요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 34,
+      "type": "TCP 연결",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "세 패킷의 순서를 찾아 주세요."
+    },
+    {
+      "student_code": "30110",
+      "question_no": 35,
+      "type": "TCP 연결",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "SYN과 SYN/ACK를 화면에서 어떻게 구분하나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 36,
+      "type": "TCP 연결",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "TCP 연결이 끝나지 않으면 무엇을 확인하나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 37,
+      "type": "TCP 연결",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "출발지 포트와 목적지 포트는 무엇인가요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 38,
+      "type": "TCP 연결",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "TCP 연결을 악수에 비유해도 되나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 39,
+      "type": "TCP 연결",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "내가 찾은 TCP 흐름이 맞는지 확인해 주세요."
+    },
+    {
+      "student_code": "30110",
+      "question_no": 40,
+      "type": "TCP 연결",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "TCP 흐름을 친구에게 쉽게 설명해 주세요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 41,
+      "type": "필터",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "tcp.port == 8001 필터는 무엇을 찾나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 42,
+      "type": "필터",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "ip.addr 필터는 언제 사용하나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 43,
+      "type": "필터",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "필터를 지우면 어떤 패킷이 다시 보이나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 44,
+      "type": "필터",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "필터 결과가 0개인 이유는 무엇인가요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 45,
+      "type": "필터",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "포트 번호를 바꾸면 무엇이 달라지나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 46,
+      "type": "필터",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "두 조건을 함께 쓰려면 어떻게 하나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 47,
+      "type": "필터",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "필터를 적용하기 전에 무엇을 예측하나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 48,
+      "type": "필터",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "필터 결과 중 한 행을 고르는 기준은 무엇인가요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 49,
+      "type": "필터",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "내 필터가 맞는지 확인할 방법은 무엇인가요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 50,
+      "type": "필터",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "필터와 프레임 번호를 함께 기록해 주세요."
+    },
+    {
+      "student_code": "30110",
+      "question_no": 51,
+      "type": "증거 기록",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "증거로 남길 프레임은 몇 번인가요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 52,
+      "type": "증거 기록",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "이 화면에서 사실만 골라 주세요."
+    },
+    {
+      "student_code": "30110",
+      "question_no": 53,
+      "type": "증거 기록",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "내 판단을 뒷받침하는 값은 무엇인가요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 54,
+      "type": "증거 기록",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "필터 문자열을 어디에 적나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 55,
+      "type": "증거 기록",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "패킷 번호와 시간은 어떻게 연결하나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 56,
+      "type": "증거 기록",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "처음 판단과 지금 판단이 어떻게 달라졌나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 57,
+      "type": "증거 기록",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "증거가 부족하면 무엇을 더 캡처하나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 58,
+      "type": "증거 기록",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "팀원에게 보여 줄 핵심 화면은 무엇인가요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 59,
+      "type": "증거 기록",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "한 문장 판단을 만들어 주세요."
+    },
+    {
+      "student_code": "30110",
+      "question_no": 60,
+      "type": "증거 기록",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "저장하기 전에 빠진 기록이 있는지 점검해 주세요."
+    },
+    {
+      "student_code": "30110",
+      "question_no": 61,
+      "type": "챗봇 대화",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "정답 말고 다음에 볼 곳만 알려 주세요."
+    },
+    {
+      "student_code": "30110",
+      "question_no": 62,
+      "type": "챗봇 대화",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "이 내용을 초등학생도 알 수 있게 설명해 주세요."
+    },
+    {
+      "student_code": "30110",
+      "question_no": 63,
+      "type": "챗봇 대화",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "제가 직접 확인할 질문을 하나 내 주세요."
+    },
+    {
+      "student_code": "30110",
+      "question_no": 64,
+      "type": "챗봇 대화",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "내 말에서 잘한 점을 찾아 주세요."
+    },
+    {
+      "student_code": "30110",
+      "question_no": 65,
+      "type": "챗봇 대화",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "내 생각과 증거가 맞는지 비교해 주세요."
+    },
+    {
+      "student_code": "30110",
+      "question_no": 66,
+      "type": "챗봇 대화",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "힌트를 한 단계만 주세요."
+    },
+    {
+      "student_code": "30110",
+      "question_no": 67,
+      "type": "챗봇 대화",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "다른 예시로 다시 설명해 주세요."
+    },
+    {
+      "student_code": "30110",
+      "question_no": 68,
+      "type": "챗봇 대화",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "제가 틀렸다면 왜 그런지 쉽게 알려 주세요."
+    },
+    {
+      "student_code": "30110",
+      "question_no": 69,
+      "type": "챗봇 대화",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "다음 차시에 기억할 내용을 한 줄로 정리해 주세요."
+    },
+    {
+      "student_code": "30110",
+      "question_no": 70,
+      "type": "챗봇 대화",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "친구에게 물어볼 질문으로 바꿔 주세요."
+    },
+    {
+      "student_code": "30110",
+      "question_no": 71,
+      "type": "판단",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "처음 생각은 무엇이었나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 72,
+      "type": "판단",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "관찰 결과를 근거로 결론을 써도 될까요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 73,
+      "type": "판단",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "사실과 추측을 나눠 주세요."
+    },
+    {
+      "student_code": "30110",
+      "question_no": 74,
+      "type": "판단",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "어떤 증거가 가장 중요했나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 75,
+      "type": "판단",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "내 판단에서 빠진 부분은 무엇인가요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 76,
+      "type": "판단",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "반대되는 증거도 있나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 77,
+      "type": "판단",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "판단을 바꾸어야 할까요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 78,
+      "type": "판단",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "결론을 짧게 줄여 주세요."
+    },
+    {
+      "student_code": "30110",
+      "question_no": 79,
+      "type": "판단",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "선생님께 설명할 때 어떤 순서가 좋나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 80,
+      "type": "판단",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "최종 판단을 저장하기 전에 확인해 주세요."
+    },
+    {
+      "student_code": "30110",
+      "question_no": 81,
+      "type": "수정·재검증",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "코드를 바꾸면 어떤 결과를 예상하나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 82,
+      "type": "수정·재검증",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "필터를 바꾼 뒤 무엇을 비교하나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 83,
+      "type": "수정·재검증",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "같은 실험을 다시 하려면 무엇을 초기화하나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 84,
+      "type": "수정·재검증",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "결과가 달라진 이유를 찾을 수 있나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 85,
+      "type": "수정·재검증",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "재검증할 때 같은 조건을 써야 하나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 86,
+      "type": "수정·재검증",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "새 패킷이 생겼는지 어떻게 확인하나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 87,
+      "type": "수정·재검증",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "수정 전과 후를 표로 비교해 주세요."
+    },
+    {
+      "student_code": "30110",
+      "question_no": 88,
+      "type": "수정·재검증",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "오류가 다시 나오면 첫 번째로 무엇을 확인하나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 89,
+      "type": "수정·재검증",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "내 수정이 문제를 해결했는지 판단해 주세요."
+    },
+    {
+      "student_code": "30110",
+      "question_no": 90,
+      "type": "수정·재검증",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "다음 실험에서 바꿀 한 가지를 정해 주세요."
+    },
+    {
+      "student_code": "30110",
+      "question_no": 91,
+      "type": "팀 활동",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "우리 팀의 역할은 무엇인가요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 92,
+      "type": "팀 활동",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "팀원에게 어떤 증거를 부탁할까요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 93,
+      "type": "팀 활동",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "두 팀의 결과를 공정하게 비교하려면 무엇을 보나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 94,
+      "type": "팀 활동",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "내가 찾은 내용을 팀 채팅에 어떻게 공유하나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 95,
+      "type": "팀 활동",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "친구의 판단과 내 판단이 다르면 어떻게 하나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 96,
+      "type": "팀 활동",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "돌발 미션을 해결하려면 누구와 먼저 이야기하나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 97,
+      "type": "팀 활동",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "팀원에게 TCP 흐름을 설명해 볼까요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 98,
+      "type": "팀 활동",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "우리 팀 자동차 게이지를 올리려면 무엇을 완료해야 하나요?"
+    },
+    {
+      "student_code": "30110",
+      "question_no": 99,
+      "type": "팀 활동",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "팀 결과를 한 문장으로 발표해 주세요."
+    },
+    {
+      "student_code": "30110",
+      "question_no": 100,
+      "type": "팀 활동",
+      "persona": "그림과 흐름으로 이해하는 학생",
+      "question": "다음 역할을 누구에게 맡기면 좋을까요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 1,
+      "type": "기초 관찰",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "화면에서 가장 먼저 볼 곳은 어디인가요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 2,
+      "type": "기초 관찰",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "이 표에서 눈에 띄는 값은 무엇인가요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 3,
+      "type": "기초 관찰",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "지금 본 것을 한 문장으로 말하면 무엇인가요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 4,
+      "type": "기초 관찰",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "이 값이 바뀐 행을 찾을 수 있나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 5,
+      "type": "기초 관찰",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "관찰한 사실과 내 생각을 어떻게 나누나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 6,
+      "type": "기초 관찰",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "처음 시작할 때 무엇을 기록해야 하나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 7,
+      "type": "기초 관찰",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "이 활동의 성공 조건은 무엇인가요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 8,
+      "type": "기초 관찰",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "모르는 단어를 쉬운 말로 바꿔 줄 수 있나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 9,
+      "type": "기초 관찰",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "친구에게 이 화면을 어떻게 설명하면 좋나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 10,
+      "type": "기초 관찰",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "다음에 확인할 한 가지를 골라 주세요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 11,
+      "type": "주행 데이터",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "속도가 가장 높은 행은 몇 번인가요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 12,
+      "type": "주행 데이터",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "속도가 0인 행에서는 차가 어떻게 움직였나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 13,
+      "type": "주행 데이터",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "조향 값이 양수인 행을 찾아 주세요."
+    },
+    {
+      "student_code": "30111",
+      "question_no": 14,
+      "type": "주행 데이터",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "조향 값이 음수인 행을 찾아 주세요."
+    },
+    {
+      "student_code": "30111",
+      "question_no": 15,
+      "type": "주행 데이터",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "앞 행과 뒤 행의 속도를 비교해 주세요."
+    },
+    {
+      "student_code": "30111",
+      "question_no": 16,
+      "type": "주행 데이터",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "속도와 조향이 동시에 바뀐 행이 있나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 17,
+      "type": "주행 데이터",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "시간 순서대로 차량 움직임을 말해 주세요."
+    },
+    {
+      "student_code": "30111",
+      "question_no": 18,
+      "type": "주행 데이터",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "이 데이터로 예측할 수 있는 차량 상태는 무엇인가요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 19,
+      "type": "주행 데이터",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "제가 찾은 행 번호가 맞는지 확인해 주세요."
+    },
+    {
+      "student_code": "30111",
+      "question_no": 20,
+      "type": "주행 데이터",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "주행 데이터와 패킷을 어떻게 연결하나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 21,
+      "type": "Wireshark",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "캡처를 시작했는지 어떻게 확인하나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 22,
+      "type": "Wireshark",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "패킷 번호는 어디에 있나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 23,
+      "type": "Wireshark",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "출발지와 목적지는 어떻게 구분하나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 24,
+      "type": "Wireshark",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "이 패킷의 프로토콜은 무엇인가요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 25,
+      "type": "Wireshark",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "정보 열에서 먼저 볼 내용은 무엇인가요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 26,
+      "type": "Wireshark",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "필터를 적용하면 무엇이 달라지나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 27,
+      "type": "Wireshark",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "화면 캡처를 증거로 남겨도 될까요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 28,
+      "type": "Wireshark",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "내가 찾은 패킷을 다시 확인하는 방법은 무엇인가요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 29,
+      "type": "Wireshark",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "Wireshark 결과를 한 문장으로 설명해 주세요."
+    },
+    {
+      "student_code": "30111",
+      "question_no": 30,
+      "type": "Wireshark",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "내가 본 패킷이 주행 데이터와 연결되나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 31,
+      "type": "TCP 연결",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "SYN은 어떤 시작 신호인가요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 32,
+      "type": "TCP 연결",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "SYN/ACK는 왜 돌아오나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 33,
+      "type": "TCP 연결",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "ACK는 무슨 뜻인가요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 34,
+      "type": "TCP 연결",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "세 패킷의 순서를 찾아 주세요."
+    },
+    {
+      "student_code": "30111",
+      "question_no": 35,
+      "type": "TCP 연결",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "SYN과 SYN/ACK를 화면에서 어떻게 구분하나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 36,
+      "type": "TCP 연결",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "TCP 연결이 끝나지 않으면 무엇을 확인하나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 37,
+      "type": "TCP 연결",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "출발지 포트와 목적지 포트는 무엇인가요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 38,
+      "type": "TCP 연결",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "TCP 연결을 악수에 비유해도 되나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 39,
+      "type": "TCP 연결",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "내가 찾은 TCP 흐름이 맞는지 확인해 주세요."
+    },
+    {
+      "student_code": "30111",
+      "question_no": 40,
+      "type": "TCP 연결",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "TCP 흐름을 친구에게 쉽게 설명해 주세요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 41,
+      "type": "필터",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "tcp.port == 8001 필터는 무엇을 찾나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 42,
+      "type": "필터",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "ip.addr 필터는 언제 사용하나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 43,
+      "type": "필터",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "필터를 지우면 어떤 패킷이 다시 보이나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 44,
+      "type": "필터",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "필터 결과가 0개인 이유는 무엇인가요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 45,
+      "type": "필터",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "포트 번호를 바꾸면 무엇이 달라지나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 46,
+      "type": "필터",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "두 조건을 함께 쓰려면 어떻게 하나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 47,
+      "type": "필터",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "필터를 적용하기 전에 무엇을 예측하나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 48,
+      "type": "필터",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "필터 결과 중 한 행을 고르는 기준은 무엇인가요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 49,
+      "type": "필터",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "내 필터가 맞는지 확인할 방법은 무엇인가요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 50,
+      "type": "필터",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "필터와 프레임 번호를 함께 기록해 주세요."
+    },
+    {
+      "student_code": "30111",
+      "question_no": 51,
+      "type": "증거 기록",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "증거로 남길 프레임은 몇 번인가요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 52,
+      "type": "증거 기록",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "이 화면에서 사실만 골라 주세요."
+    },
+    {
+      "student_code": "30111",
+      "question_no": 53,
+      "type": "증거 기록",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "내 판단을 뒷받침하는 값은 무엇인가요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 54,
+      "type": "증거 기록",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "필터 문자열을 어디에 적나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 55,
+      "type": "증거 기록",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "패킷 번호와 시간은 어떻게 연결하나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 56,
+      "type": "증거 기록",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "처음 판단과 지금 판단이 어떻게 달라졌나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 57,
+      "type": "증거 기록",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "증거가 부족하면 무엇을 더 캡처하나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 58,
+      "type": "증거 기록",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "팀원에게 보여 줄 핵심 화면은 무엇인가요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 59,
+      "type": "증거 기록",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "한 문장 판단을 만들어 주세요."
+    },
+    {
+      "student_code": "30111",
+      "question_no": 60,
+      "type": "증거 기록",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "저장하기 전에 빠진 기록이 있는지 점검해 주세요."
+    },
+    {
+      "student_code": "30111",
+      "question_no": 61,
+      "type": "챗봇 대화",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "정답 말고 다음에 볼 곳만 알려 주세요."
+    },
+    {
+      "student_code": "30111",
+      "question_no": 62,
+      "type": "챗봇 대화",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "이 내용을 초등학생도 알 수 있게 설명해 주세요."
+    },
+    {
+      "student_code": "30111",
+      "question_no": 63,
+      "type": "챗봇 대화",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "제가 직접 확인할 질문을 하나 내 주세요."
+    },
+    {
+      "student_code": "30111",
+      "question_no": 64,
+      "type": "챗봇 대화",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "내 말에서 잘한 점을 찾아 주세요."
+    },
+    {
+      "student_code": "30111",
+      "question_no": 65,
+      "type": "챗봇 대화",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "내 생각과 증거가 맞는지 비교해 주세요."
+    },
+    {
+      "student_code": "30111",
+      "question_no": 66,
+      "type": "챗봇 대화",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "힌트를 한 단계만 주세요."
+    },
+    {
+      "student_code": "30111",
+      "question_no": 67,
+      "type": "챗봇 대화",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "다른 예시로 다시 설명해 주세요."
+    },
+    {
+      "student_code": "30111",
+      "question_no": 68,
+      "type": "챗봇 대화",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "제가 틀렸다면 왜 그런지 쉽게 알려 주세요."
+    },
+    {
+      "student_code": "30111",
+      "question_no": 69,
+      "type": "챗봇 대화",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "다음 차시에 기억할 내용을 한 줄로 정리해 주세요."
+    },
+    {
+      "student_code": "30111",
+      "question_no": 70,
+      "type": "챗봇 대화",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "친구에게 물어볼 질문으로 바꿔 주세요."
+    },
+    {
+      "student_code": "30111",
+      "question_no": 71,
+      "type": "판단",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "처음 생각은 무엇이었나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 72,
+      "type": "판단",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "관찰 결과를 근거로 결론을 써도 될까요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 73,
+      "type": "판단",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "사실과 추측을 나눠 주세요."
+    },
+    {
+      "student_code": "30111",
+      "question_no": 74,
+      "type": "판단",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "어떤 증거가 가장 중요했나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 75,
+      "type": "판단",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "내 판단에서 빠진 부분은 무엇인가요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 76,
+      "type": "판단",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "반대되는 증거도 있나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 77,
+      "type": "판단",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "판단을 바꾸어야 할까요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 78,
+      "type": "판단",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "결론을 짧게 줄여 주세요."
+    },
+    {
+      "student_code": "30111",
+      "question_no": 79,
+      "type": "판단",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "선생님께 설명할 때 어떤 순서가 좋나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 80,
+      "type": "판단",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "최종 판단을 저장하기 전에 확인해 주세요."
+    },
+    {
+      "student_code": "30111",
+      "question_no": 81,
+      "type": "수정·재검증",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "코드를 바꾸면 어떤 결과를 예상하나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 82,
+      "type": "수정·재검증",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "필터를 바꾼 뒤 무엇을 비교하나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 83,
+      "type": "수정·재검증",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "같은 실험을 다시 하려면 무엇을 초기화하나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 84,
+      "type": "수정·재검증",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "결과가 달라진 이유를 찾을 수 있나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 85,
+      "type": "수정·재검증",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "재검증할 때 같은 조건을 써야 하나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 86,
+      "type": "수정·재검증",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "새 패킷이 생겼는지 어떻게 확인하나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 87,
+      "type": "수정·재검증",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "수정 전과 후를 표로 비교해 주세요."
+    },
+    {
+      "student_code": "30111",
+      "question_no": 88,
+      "type": "수정·재검증",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "오류가 다시 나오면 첫 번째로 무엇을 확인하나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 89,
+      "type": "수정·재검증",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "내 수정이 문제를 해결했는지 판단해 주세요."
+    },
+    {
+      "student_code": "30111",
+      "question_no": 90,
+      "type": "수정·재검증",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "다음 실험에서 바꿀 한 가지를 정해 주세요."
+    },
+    {
+      "student_code": "30111",
+      "question_no": 91,
+      "type": "팀 활동",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "우리 팀의 역할은 무엇인가요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 92,
+      "type": "팀 활동",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "팀원에게 어떤 증거를 부탁할까요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 93,
+      "type": "팀 활동",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "두 팀의 결과를 공정하게 비교하려면 무엇을 보나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 94,
+      "type": "팀 활동",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "내가 찾은 내용을 팀 채팅에 어떻게 공유하나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 95,
+      "type": "팀 활동",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "친구의 판단과 내 판단이 다르면 어떻게 하나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 96,
+      "type": "팀 활동",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "돌발 미션을 해결하려면 누구와 먼저 이야기하나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 97,
+      "type": "팀 활동",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "팀원에게 TCP 흐름을 설명해 볼까요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 98,
+      "type": "팀 활동",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "우리 팀 자동차 게이지를 올리려면 무엇을 완료해야 하나요?"
+    },
+    {
+      "student_code": "30111",
+      "question_no": 99,
+      "type": "팀 활동",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "팀 결과를 한 문장으로 발표해 주세요."
+    },
+    {
+      "student_code": "30111",
+      "question_no": 100,
+      "type": "팀 활동",
+      "persona": "반복 연습으로 익히는 학생",
+      "question": "다음 역할을 누구에게 맡기면 좋을까요?"
+    }
+  ]
+}
