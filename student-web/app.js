@@ -1,9 +1,7 @@
 // GitHub Pages는 정적 호스팅이므로 /health·/api를 JSON 서버로 호출할 수 없습니다.
 // 로컬 개발 서버에서만 API를 사용하고, 공개 페이지에서는 브라우저 저장 기능으로 동작합니다.
 const isStaticPages = window.location.hostname.endsWith("github.io");
-const API = !isStaticPages && (["5500", "5501"].includes(window.location.port) || window.location.protocol === "file:")
-  ? "http://127.0.0.1:8001"
-  : (isStaticPages ? "" : window.location.origin);
+const API = isStaticPages ? "https://network-lab.onrender.com" : ((!isStaticPages && (["5500", "5501"].includes(window.location.port) || window.location.protocol === "file:")) ? "http://127.0.0.1:8001" : window.location.origin);
 
 const steps = [
   ["mission", "오늘의 미션", "목표와 성공 조건을 내 말로 다시 적는다."],
