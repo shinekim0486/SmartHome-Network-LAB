@@ -933,7 +933,9 @@ document.querySelector("#auto-question")?.addEventListener("click", async () => 
   const status = document.querySelector("#chat-status");
   const code = document.querySelector("#login-code")?.value.trim() || currentStudent?.student_code || "30101";
   try {
-    const response = await fetch("docs/chatbot-question-bank-30101-30111.json");
+    const response = await fetch("../docs/chatbot-question-bank-30101-30111.json");
+    const contentType = response.headers.get("content-type") || "";
+    if (!response.ok || !contentType.includes("application/json")) throw new Error(`질문 JSON 파일을 찾을 수 없습니다 (HTTP ${response.status})`);
     const payload = await response.json();
     const questions = payload.questions.filter(item => item.student_code === code);
     if (!questions.length) throw new Error("해당 학번의 질문을 찾지 못했습니다.");
