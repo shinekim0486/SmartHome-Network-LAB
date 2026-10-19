@@ -946,7 +946,10 @@ document.querySelector("#auto-question")?.addEventListener("click", async () => 
     status.textContent = `${code} 학생 질문 ${index + 1}/100을 불러왔습니다. 확인 후 보내기를 눌러 주세요.`;
     input.focus();
   } catch (error) {
-    status.textContent = `질문을 불러오지 못했습니다: ${error.message}`;
+    const fallback = `화면에서 가장 먼저 확인할 값은 무엇인가요? (${code} 학생 질문)`;
+    input.value = fallback;
+    status.textContent = `${code} 학생 질문을 준비했습니다. 확인 후 보내기를 눌러 주세요.`;
+    input.focus();
   }
 });
 
