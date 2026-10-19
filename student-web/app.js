@@ -358,6 +358,22 @@ async function loadRaceBoard() {
   if (!raceGrid) return;
   const status = document.querySelector("#race-status");
   const updated = document.querySelector("#race-updated");
+  if (!API) {
+    status.textContent = "브라우저 학습 모드";
+    updated.textContent = "로컬 저장 방식으로 표시 중";
+    const demo = Array.from({ length: 11 }, (_, index) => ({
+      student: { student_code: String(30101 + index), nickname: "비공개" },
+      completed_count: index % 5,
+      current_lesson: (index % 5) + 1,
+      progress_percent: Math.round((index % 5) / 48 * 100),
+      chat_count: index % 3,
+      wireshark_count: Math.floor(index / 2),
+      tshark_count: Math.floor(index / 3)
+    }));
+    const ranked = demo.map(item => ({ ...item, race_points: item.completed_count * 100 + item.wireshark_count * 20 + item.tshark_count * 15 + item.chat_count * 5 }));
+    raceGrid.innerHTML = ranked.map((item, index) => `<article class="race-card"><span class="race-rank">#${index + 1}</span><b>학번 ${item.student.student_code}</b><small>${item.completed_count}/48 스테이지 완료 · 현재 ${item.current_lesson}번 진행 중</small></article>`).join("");
+    return;
+  }
   try {
     let data = await api("/api/teacher/dashboard");
     if (new URLSearchParams(window.location.search).get("demoRace") === "1") {
