@@ -1,4 +1,9 @@
-const API = ["5500", "5501"].includes(window.location.port) || window.location.protocol === "file:" ? "http://127.0.0.1:8001" : window.location.origin;
+// GitHub Pages는 정적 호스팅이므로 /health·/api를 JSON 서버로 호출할 수 없습니다.
+// 로컬 개발 서버에서만 API를 사용하고, 공개 페이지에서는 브라우저 저장 기능으로 동작합니다.
+const isStaticPages = window.location.hostname.endsWith("github.io");
+const API = !isStaticPages && (["5500", "5501"].includes(window.location.port) || window.location.protocol === "file:")
+  ? "http://127.0.0.1:8001"
+  : (isStaticPages ? "" : window.location.origin);
 
 const steps = [
   ["mission", "오늘의 미션", "목표와 성공 조건을 내 말로 다시 적는다."],
@@ -531,7 +536,7 @@ function render() {
     </div>
   `;
   renderDrivingDataPanel(n);
-  const renderStep = ([id, title, text], index) => `<article class="step ${id === active ? "active" : ""}" data-step="${id}"><b><span class="step-icon" aria-hidden="true">${stepIcons[id] || "📘"}</span>${index + 1}. ${title}</b>${text}${id === "code" ? '<span class="step-launch">시뮬레이션 열기 →</span>' : ""}</article>`;
+  const renderStep = ([id, title, text], index) => `<article class="step ${id === active ? "active" : ""}" data-step="${id}"><b><span class="step-icon" aria-hidden="true">${stepIcons[id] || "📘"}</span>${index + 1}. ${title}</b>${text}${id === "code" ? '<span class="step-launch">시뮬레이션 열기 →</span>' : ""}${id === "hint" ? '<span class="step-launch">챗봇 열기 →</span>' : ""}</article>`;
   const beforeChat = steps.slice(0, 5).map(renderStep).join("");
   const afterChat = steps.slice(5).map((step, index) => renderStep(step, index + 5)).join("");
   document.querySelector("#flow").innerHTML = `
@@ -547,6 +552,7 @@ function render() {
     element.onclick = () => {
       active = element.dataset.step;
       render();
+      document.querySelector(".chat-card")?.classList.toggle("chat-open", active === "hint");
       if (active === "code") {
         window.location.hash = "vscode-simulation";
         window.requestAnimationFrame(() => document.querySelector("#vscode-simulation")?.scrollIntoView({ behavior: "auto", block: "start" }));
@@ -594,6 +600,10 @@ document.querySelector("#save").onclick = async () => {
 async function loadMySubmissions() {
   const id = document.querySelector("#student-id").value.trim();
   if (!id) return;
+  if (!API) {
+    document.querySelector("#my-submissions").textContent = "공개 페이지에서는 제출 기록 API가 연결되지 않았습니다.";
+    return;
+  }
   try {
     const items = await fetch(`${API}/api/submissions?student_id=${encodeURIComponent(id)}`).then(response => response.json());
     document.querySelector("#my-submissions").innerHTML = items.length
@@ -629,17 +639,23 @@ document.querySelector("#submission-form").onsubmit = async event => {
   }
 };
 
-fetch(`${API}/health`)
-  .then(response => response.json())
-  .then(() => { document.querySelector("#api-status").textContent = "● API 연결됨"; })
-  .catch(() => { document.querySelector("#api-status").textContent = "○ API 오프라인"; });
+if (API) {
+  fetch(`${API}/health`)
+    .then(response => response.ok ? response.json() : Promise.reject(new Error(`HTTP ${response.status}`)))
+    .then(() => { document.querySelector("#api-status").textContent = "● API 연결됨"; })
+    .catch(() => { document.querySelector("#api-status").textContent = "○ API 오프라인"; });
+} else {
+  document.querySelector("#api-status").textContent = "● 브라우저 학습 모드";
+}
 
 let currentStudent = JSON.parse(localStorage.getItem("smarthome-student") || "null");
 const memoryResult = document.querySelector("#memory-result");
 
 async function api(path, options = {}) {
+  if (!API) throw new Error("공개 웹페이지에서는 브라우저 저장 모드로 작동합니다. 서버 API가 필요하면 로컬 서버를 실행하세요.");
   const response = await fetch(`${API}${path}`, options);
-  const data = await response.json();
+  const contentType = response.headers.get("content-type") || "";
+  const data = contentType.includes("application/json") ? await response.json() : { detail: `JSON이 아닌 응답을 받았습니다 (HTTP ${response.status})` };
   if (!response.ok) throw new Error(data.detail || `HTTP ${response.status}`);
   return data;
 }
@@ -866,6 +882,35 @@ document.querySelectorAll(".question-chip").forEach(button => {
     document.querySelector("#chat-status").textContent = "추천 질문을 불러왔습니다. 내 증거에 맞게 고쳐서 보내세요.";
   };
 });
+
+// 플로팅 챗봇을 마우스로 원하는 위치에 이동합니다.
+const floatingChat = document.querySelector(".floating-chat");
+const floatingChatHead = document.querySelector(".floating-chat-head");
+if (floatingChat && floatingChatHead) {
+  let dragging = false;
+  let offsetX = 0;
+  let offsetY = 0;
+  floatingChatHead.addEventListener("pointerdown", event => {
+    dragging = true;
+    const rect = floatingChat.getBoundingClientRect();
+    offsetX = event.clientX - rect.left;
+    offsetY = event.clientY - rect.top;
+    floatingChat.style.right = "auto";
+    floatingChat.style.bottom = "auto";
+    floatingChatHead.setPointerCapture?.(event.pointerId);
+    event.preventDefault();
+  });
+  floatingChatHead.addEventListener("pointermove", event => {
+    if (!dragging) return;
+    const maxX = Math.max(0, window.innerWidth - floatingChat.offsetWidth);
+    const maxY = Math.max(0, window.innerHeight - floatingChat.offsetHeight);
+    floatingChat.style.left = `${Math.max(0, Math.min(maxX, event.clientX - offsetX))}px`;
+    floatingChat.style.top = `${Math.max(0, Math.min(maxY, event.clientY - offsetY))}px`;
+  });
+  const stopDragging = () => { dragging = false; };
+  floatingChatHead.addEventListener("pointerup", stopDragging);
+  floatingChatHead.addEventListener("pointercancel", stopDragging);
+}
 
 document.querySelector("#auto-question")?.addEventListener("click", async () => {
   const input = document.querySelector("#gemini-question");
